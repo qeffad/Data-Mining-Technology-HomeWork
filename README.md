@@ -8,9 +8,6 @@
 - [备版回放检查](experiment/results/revision_check.json)
 - [查询顺序的补充对照](experiment/results/query_order_followup.json)
 
-## 填写公开仓库链接
-
-将课程材料上传到个人 Public GitHub 仓库后，用仓库首页的完整 URL 替换 Word 报告第 1 页蓝灰色链接栏里的文字。出版前在 Word 里选中该地址并按 `Ctrl+K`，即可将其设为可点击的仓库链接。
 
 ## 复核实验数字
 
