@@ -1,0 +1,3997 @@
+{
+  "case-00df7fec8805": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-e10e7e290007",
+      "r-f89259230ad4"
+    ],
+    "canonical_mismatch": [
+      "970302813",
+      "975799316"
+    ],
+    "case_id": "case-00df7fec8805",
+    "correct_members": [
+      "970302813",
+      "973643687",
+      "973763586",
+      "976925342"
+    ],
+    "group": "equal_count_swap",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 123,
+        "mmsi": "973763586",
+        "processed": 143,
+        "received": 135,
+        "record_id": "r-530a38db7df6"
+      },
+      {
+        "channel": "coast",
+        "event": 203,
+        "mmsi": "973763586",
+        "processed": 221,
+        "received": 215,
+        "record_id": "r-008e61c6936e"
+      },
+      {
+        "channel": "coast",
+        "event": 322,
+        "mmsi": "976925342",
+        "processed": 337,
+        "received": 334,
+        "record_id": "r-e7e5fdbdc508"
+      },
+      {
+        "channel": "coast",
+        "event": 402,
+        "mmsi": "976925342",
+        "processed": 419,
+        "received": 414,
+        "record_id": "r-50fe7d0a1b4d"
+      },
+      {
+        "channel": "coast",
+        "event": 228,
+        "mmsi": "973643687",
+        "processed": 245,
+        "received": 240,
+        "record_id": "r-1bc6acccf329"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "971479007",
+        "processed": -93,
+        "received": -98,
+        "record_id": "r-1131885639ad"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "973056187",
+        "processed": 621,
+        "received": 612,
+        "record_id": "r-bc1e09501eb0"
+      },
+      {
+        "channel": "relay",
+        "event": 586,
+        "mmsi": "970302813",
+        "processed": 614,
+        "received": 606,
+        "record_id": "r-e10e7e290007"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "970302813",
+        "processed": 611,
+        "received": 604,
+        "record_id": "r-e919790b71ce"
+      },
+      {
+        "channel": "relay",
+        "event": -34,
+        "mmsi": "975799316",
+        "processed": 38,
+        "received": 32,
+        "record_id": "r-f89259230ad4"
+      },
+      {
+        "channel": "coast",
+        "event": -135,
+        "mmsi": "975799316",
+        "processed": -115,
+        "received": -120,
+        "record_id": "r-95b1db9781c1"
+      }
+    ],
+    "revised_correct_members": [
+      "970302813",
+      "973643687",
+      "973763586",
+      "976925342"
+    ],
+    "underlying_findings": {
+      "970302813": {
+        "finding": "processing_time_window",
+        "record_id": "r-e10e7e290007"
+      },
+      "975799316": {
+        "finding": "processing_time_window",
+        "record_id": "r-f89259230ad4"
+      }
+    }
+  },
+  "case-0a7d66b7cbe7": {
+    "actual_cutoff_overrides": {
+      "r-086dd643b7eb": 684
+    },
+    "actual_processing_time_records": [
+      "r-6db82323213c"
+    ],
+    "canonical_mismatch": [
+      "970054223",
+      "979033778"
+    ],
+    "case_id": "case-0a7d66b7cbe7",
+    "correct_members": [
+      "970222560",
+      "974785096",
+      "978065283",
+      "979033778"
+    ],
+    "group": "equal_count_swap",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 346,
+        "mmsi": "974785096",
+        "processed": 361,
+        "received": 358,
+        "record_id": "r-5813a91ee413"
+      },
+      {
+        "channel": "coast",
+        "event": 426,
+        "mmsi": "974785096",
+        "processed": 441,
+        "received": 438,
+        "record_id": "r-6121244f533b"
+      },
+      {
+        "channel": "coast",
+        "event": 20,
+        "mmsi": "978065283",
+        "processed": 39,
+        "received": 32,
+        "record_id": "r-e10f2c17384c"
+      },
+      {
+        "channel": "coast",
+        "event": 100,
+        "mmsi": "978065283",
+        "processed": 119,
+        "received": 112,
+        "record_id": "r-d8c80876c47b"
+      },
+      {
+        "channel": "coast",
+        "event": 379,
+        "mmsi": "970222560",
+        "processed": 400,
+        "received": 391,
+        "record_id": "r-7ea40c0eb5d4"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "971179125",
+        "processed": -92,
+        "received": -98,
+        "record_id": "r-4e42e1acc6ee"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "978628935",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-5272060f4102"
+      },
+      {
+        "channel": "relay",
+        "event": 573,
+        "mmsi": "979033778",
+        "processed": 613,
+        "received": 609,
+        "record_id": "r-6db82323213c"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "979033778",
+        "processed": 612,
+        "received": 604,
+        "record_id": "r-55a694d5f182"
+      },
+      {
+        "channel": "relay",
+        "event": 586,
+        "mmsi": "970054223",
+        "processed": 681,
+        "received": 674,
+        "record_id": "r-086dd643b7eb"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "970054223",
+        "processed": 613,
+        "received": 610,
+        "record_id": "r-a8cb45806b64"
+      }
+    ],
+    "revised_correct_members": [
+      "970054223",
+      "970222560",
+      "974785096",
+      "978065283",
+      "979033778"
+    ],
+    "underlying_findings": {
+      "970054223": {
+        "finding": "input_cutoff",
+        "record_id": "r-086dd643b7eb"
+      },
+      "979033778": {
+        "finding": "processing_time_window",
+        "record_id": "r-6db82323213c"
+      }
+    }
+  },
+  "case-0d9fecb2de88": {
+    "actual_cutoff_overrides": {
+      "r-62ce176d8db9": 638
+    },
+    "actual_processing_time_records": [
+      "r-633a1bc7b642"
+    ],
+    "canonical_mismatch": [
+      "970622315",
+      "973171937"
+    ],
+    "case_id": "case-0d9fecb2de88",
+    "correct_members": [
+      "970574870",
+      "970622315",
+      "971750304",
+      "973171937",
+      "975390687"
+    ],
+    "group": "mixed",
+    "late_control": {
+      "event_utc": "2026-08-28T06:09:42Z",
+      "mmsi": "977531401",
+      "received_utc": "2026-08-28T06:11:58Z",
+      "record_id": "r-a4f5ee514734"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 187,
+        "mmsi": "975390687",
+        "processed": 208,
+        "received": 199,
+        "record_id": "r-030ef1984f16"
+      },
+      {
+        "channel": "coast",
+        "event": 267,
+        "mmsi": "975390687",
+        "processed": 287,
+        "received": 279,
+        "record_id": "r-b03e649567d2"
+      },
+      {
+        "channel": "coast",
+        "event": 43,
+        "mmsi": "970574870",
+        "processed": 64,
+        "received": 55,
+        "record_id": "r-edd4b6f5d58a"
+      },
+      {
+        "channel": "coast",
+        "event": 123,
+        "mmsi": "970574870",
+        "processed": 139,
+        "received": 135,
+        "record_id": "r-90ed5c834199"
+      },
+      {
+        "channel": "coast",
+        "event": 119,
+        "mmsi": "971750304",
+        "processed": 139,
+        "received": 131,
+        "record_id": "r-d0a073c38c04"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "977759773",
+        "processed": -94,
+        "received": -98,
+        "record_id": "r-c3c59bb8fc68"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "976562838",
+        "processed": 621,
+        "received": 612,
+        "record_id": "r-ea9ed3d2c730"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "977531401",
+        "processed": 723,
+        "received": 718,
+        "record_id": "r-a4f5ee514734"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "977531401",
+        "processed": 618,
+        "received": 615,
+        "record_id": "r-a7ae715d7143"
+      },
+      {
+        "channel": "relay",
+        "event": 572,
+        "mmsi": "970622315",
+        "processed": 620,
+        "received": 617,
+        "record_id": "r-633a1bc7b642"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "970622315",
+        "processed": 610,
+        "received": 604,
+        "record_id": "r-ec8d3e4e6632"
+      },
+      {
+        "channel": "relay",
+        "event": 566,
+        "mmsi": "973171937",
+        "processed": 651,
+        "received": 646,
+        "record_id": "r-62ce176d8db9"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "973171937",
+        "processed": 617,
+        "received": 610,
+        "record_id": "r-945d6d869f1f"
+      }
+    ],
+    "revised_correct_members": [
+      "970574870",
+      "970622315",
+      "971750304",
+      "973171937",
+      "975390687",
+      "977531401"
+    ],
+    "underlying_findings": {
+      "970622315": {
+        "finding": "processing_time_window",
+        "record_id": "r-633a1bc7b642"
+      },
+      "973171937": {
+        "finding": "input_cutoff",
+        "record_id": "r-62ce176d8db9"
+      }
+    }
+  },
+  "case-2d81cee2b6d6": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [],
+    "case_id": "case-2d81cee2b6d6",
+    "correct_members": [
+      "972496276",
+      "972904331",
+      "973299491",
+      "975804086",
+      "977808002",
+      "977935899"
+    ],
+    "group": "normal",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 160,
+        "mmsi": "977935899",
+        "processed": 179,
+        "received": 172,
+        "record_id": "r-893e35380244"
+      },
+      {
+        "channel": "coast",
+        "event": 240,
+        "mmsi": "977935899",
+        "processed": 261,
+        "received": 252,
+        "record_id": "r-3ef857d9b1c3"
+      },
+      {
+        "channel": "coast",
+        "event": 57,
+        "mmsi": "972496276",
+        "processed": 78,
+        "received": 69,
+        "record_id": "r-8e72cfca1abf"
+      },
+      {
+        "channel": "coast",
+        "event": 137,
+        "mmsi": "972496276",
+        "processed": 156,
+        "received": 149,
+        "record_id": "r-28d4bf68ed15"
+      },
+      {
+        "channel": "coast",
+        "event": 374,
+        "mmsi": "977808002",
+        "processed": 392,
+        "received": 386,
+        "record_id": "r-e2eb6f5d77fd"
+      },
+      {
+        "channel": "coast",
+        "event": 348,
+        "mmsi": "973299491",
+        "processed": 363,
+        "received": 360,
+        "record_id": "r-73a8e3dd3d5c"
+      },
+      {
+        "channel": "coast",
+        "event": 125,
+        "mmsi": "975804086",
+        "processed": 146,
+        "received": 137,
+        "record_id": "r-98e26db11b0c"
+      },
+      {
+        "channel": "coast",
+        "event": 387,
+        "mmsi": "972904331",
+        "processed": 406,
+        "received": 399,
+        "record_id": "r-2b084e0e31bc"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "976250468",
+        "processed": -93,
+        "received": -98,
+        "record_id": "r-edf3a315a7de"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "974893872",
+        "processed": 616,
+        "received": 612,
+        "record_id": "r-052297467859"
+      }
+    ],
+    "revised_correct_members": [
+      "972496276",
+      "972904331",
+      "973299491",
+      "975804086",
+      "977808002",
+      "977935899"
+    ],
+    "underlying_findings": {}
+  },
+  "case-393d6cf7dff8": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [],
+    "case_id": "case-393d6cf7dff8",
+    "correct_members": [
+      "971454722",
+      "976719191",
+      "978395823",
+      "978509049",
+      "978935948"
+    ],
+    "group": "normal",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 201,
+        "mmsi": "978935948",
+        "processed": 218,
+        "received": 213,
+        "record_id": "r-346cba5a8ec7"
+      },
+      {
+        "channel": "coast",
+        "event": 281,
+        "mmsi": "978935948",
+        "processed": 298,
+        "received": 293,
+        "record_id": "r-a2bca81d4309"
+      },
+      {
+        "channel": "coast",
+        "event": 96,
+        "mmsi": "978395823",
+        "processed": 112,
+        "received": 108,
+        "record_id": "r-74bc7a9c04df"
+      },
+      {
+        "channel": "coast",
+        "event": 176,
+        "mmsi": "978395823",
+        "processed": 194,
+        "received": 188,
+        "record_id": "r-190d0d52894e"
+      },
+      {
+        "channel": "coast",
+        "event": 386,
+        "mmsi": "978509049",
+        "processed": 402,
+        "received": 398,
+        "record_id": "r-1de5345b91cc"
+      },
+      {
+        "channel": "coast",
+        "event": 23,
+        "mmsi": "976719191",
+        "processed": 44,
+        "received": 35,
+        "record_id": "r-827a2071175f"
+      },
+      {
+        "channel": "coast",
+        "event": 364,
+        "mmsi": "971454722",
+        "processed": 384,
+        "received": 376,
+        "record_id": "r-55620ea69a0c"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "971251022",
+        "processed": -93,
+        "received": -98,
+        "record_id": "r-48761e7d9d98"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "976490577",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-ecf34932b860"
+      }
+    ],
+    "revised_correct_members": [
+      "971454722",
+      "976719191",
+      "978395823",
+      "978509049",
+      "978935948"
+    ],
+    "underlying_findings": {}
+  },
+  "case-3e6a51338aec": {
+    "actual_cutoff_overrides": {
+      "r-721558df34be": 643
+    },
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [
+      "975724484"
+    ],
+    "case_id": "case-3e6a51338aec",
+    "correct_members": [
+      "973651547",
+      "975492198",
+      "975724484",
+      "978059081"
+    ],
+    "group": "insufficient",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 314,
+        "mmsi": "975492198",
+        "processed": 332,
+        "received": 326,
+        "record_id": "r-2edde1427a81"
+      },
+      {
+        "channel": "coast",
+        "event": 394,
+        "mmsi": "975492198",
+        "processed": 413,
+        "received": 406,
+        "record_id": "r-6124cce64372"
+      },
+      {
+        "channel": "coast",
+        "event": 36,
+        "mmsi": "978059081",
+        "processed": 52,
+        "received": 48,
+        "record_id": "r-231f25fee6ff"
+      },
+      {
+        "channel": "coast",
+        "event": 116,
+        "mmsi": "978059081",
+        "processed": 132,
+        "received": 128,
+        "record_id": "r-618e5e2a55ed"
+      },
+      {
+        "channel": "coast",
+        "event": 92,
+        "mmsi": "973651547",
+        "processed": 109,
+        "received": 104,
+        "record_id": "r-421c2cebd035"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "975342175",
+        "processed": -92,
+        "received": -98,
+        "record_id": "r-97b59342aab8"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "976220804",
+        "processed": 616,
+        "received": 612,
+        "record_id": "r-2becf55f7c4d"
+      },
+      {
+        "channel": "relay",
+        "event": 580,
+        "mmsi": "975724484",
+        "processed": 660,
+        "received": 651,
+        "record_id": "r-721558df34be"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "975724484",
+        "processed": 615,
+        "received": 610,
+        "record_id": "r-9ee1811d54ed"
+      }
+    ],
+    "revised_correct_members": [
+      "973651547",
+      "975492198",
+      "975724484",
+      "978059081"
+    ],
+    "underlying_findings": {
+      "975724484": {
+        "finding": "input_cutoff",
+        "record_id": "r-721558df34be"
+      }
+    }
+  },
+  "case-4e16a8957474": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [],
+    "case_id": "case-4e16a8957474",
+    "correct_members": [
+      "970786880",
+      "974438237",
+      "974586311",
+      "974957843",
+      "976937297",
+      "977606933"
+    ],
+    "group": "legal_late",
+    "late_control": {
+      "event_utc": "2026-08-26T06:09:42Z",
+      "mmsi": "974347476",
+      "received_utc": "2026-08-26T06:11:52Z",
+      "record_id": "r-b725383ae4c4"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 43,
+        "mmsi": "974957843",
+        "processed": 62,
+        "received": 55,
+        "record_id": "r-b6ba0517602f"
+      },
+      {
+        "channel": "coast",
+        "event": 123,
+        "mmsi": "974957843",
+        "processed": 138,
+        "received": 135,
+        "record_id": "r-f53470034bfd"
+      },
+      {
+        "channel": "coast",
+        "event": 261,
+        "mmsi": "970786880",
+        "processed": 281,
+        "received": 273,
+        "record_id": "r-cbf4b838d4b2"
+      },
+      {
+        "channel": "coast",
+        "event": 341,
+        "mmsi": "970786880",
+        "processed": 362,
+        "received": 353,
+        "record_id": "r-f460f451eb8a"
+      },
+      {
+        "channel": "coast",
+        "event": 310,
+        "mmsi": "974586311",
+        "processed": 329,
+        "received": 322,
+        "record_id": "r-d58ac5fc6d74"
+      },
+      {
+        "channel": "coast",
+        "event": 21,
+        "mmsi": "974438237",
+        "processed": 40,
+        "received": 33,
+        "record_id": "r-aa47b02d06e5"
+      },
+      {
+        "channel": "coast",
+        "event": 23,
+        "mmsi": "977606933",
+        "processed": 44,
+        "received": 35,
+        "record_id": "r-647c11b216a8"
+      },
+      {
+        "channel": "coast",
+        "event": 218,
+        "mmsi": "976937297",
+        "processed": 238,
+        "received": 230,
+        "record_id": "r-47930aec6bf0"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "978506746",
+        "processed": -95,
+        "received": -98,
+        "record_id": "r-28fa899e0882"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "977107492",
+        "processed": 620,
+        "received": 612,
+        "record_id": "r-af402469fbcd"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "974347476",
+        "processed": 719,
+        "received": 712,
+        "record_id": "r-b725383ae4c4"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "974347476",
+        "processed": 623,
+        "received": 615,
+        "record_id": "r-244223a4525b"
+      }
+    ],
+    "revised_correct_members": [
+      "970786880",
+      "974347476",
+      "974438237",
+      "974586311",
+      "974957843",
+      "976937297",
+      "977606933"
+    ],
+    "underlying_findings": {}
+  },
+  "case-50d3281aeec2": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-ca55b735dd29"
+    ],
+    "canonical_mismatch": [
+      "979993476"
+    ],
+    "case_id": "case-50d3281aeec2",
+    "correct_members": [
+      "974391727",
+      "976999488",
+      "977318320",
+      "978069837",
+      "979875484",
+      "979993476"
+    ],
+    "group": "insufficient",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 132,
+        "mmsi": "977318320",
+        "processed": 148,
+        "received": 144,
+        "record_id": "r-8138ad488735"
+      },
+      {
+        "channel": "coast",
+        "event": 212,
+        "mmsi": "977318320",
+        "processed": 232,
+        "received": 224,
+        "record_id": "r-fac93b1ddc2b"
+      },
+      {
+        "channel": "coast",
+        "event": 396,
+        "mmsi": "974391727",
+        "processed": 413,
+        "received": 408,
+        "record_id": "r-fd820a971439"
+      },
+      {
+        "channel": "coast",
+        "event": 476,
+        "mmsi": "974391727",
+        "processed": 493,
+        "received": 488,
+        "record_id": "r-fa7627007604"
+      },
+      {
+        "channel": "coast",
+        "event": 41,
+        "mmsi": "979875484",
+        "processed": 62,
+        "received": 53,
+        "record_id": "r-68505b122aed"
+      },
+      {
+        "channel": "coast",
+        "event": 129,
+        "mmsi": "978069837",
+        "processed": 147,
+        "received": 141,
+        "record_id": "r-82432e04d616"
+      },
+      {
+        "channel": "coast",
+        "event": 145,
+        "mmsi": "976999488",
+        "processed": 164,
+        "received": 157,
+        "record_id": "r-33a55e831709"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "975535402",
+        "processed": -91,
+        "received": -98,
+        "record_id": "r-4220e74f9b37"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "974903206",
+        "processed": 617,
+        "received": 612,
+        "record_id": "r-3999c5caaf55"
+      },
+      {
+        "channel": "relay",
+        "event": 576,
+        "mmsi": "979993476",
+        "processed": 617,
+        "received": 614,
+        "record_id": "r-ca55b735dd29"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "979993476",
+        "processed": 609,
+        "received": 604,
+        "record_id": "r-721cade0c52c"
+      }
+    ],
+    "revised_correct_members": [
+      "974391727",
+      "976999488",
+      "977318320",
+      "978069837",
+      "979875484",
+      "979993476"
+    ],
+    "underlying_findings": {
+      "979993476": {
+        "finding": "processing_time_window",
+        "record_id": "r-ca55b735dd29"
+      }
+    }
+  },
+  "case-521a13487a8f": {
+    "actual_cutoff_overrides": {
+      "r-47166b7687ff": 668
+    },
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [
+      "977036747"
+    ],
+    "case_id": "case-521a13487a8f",
+    "correct_members": [
+      "972654683",
+      "973726696",
+      "974255508",
+      "976547977",
+      "979559156"
+    ],
+    "group": "insufficient",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 366,
+        "mmsi": "979559156",
+        "processed": 382,
+        "received": 378,
+        "record_id": "r-0afd74181927"
+      },
+      {
+        "channel": "coast",
+        "event": 446,
+        "mmsi": "979559156",
+        "processed": 464,
+        "received": 458,
+        "record_id": "r-c44b35324964"
+      },
+      {
+        "channel": "coast",
+        "event": 144,
+        "mmsi": "976547977",
+        "processed": 161,
+        "received": 156,
+        "record_id": "r-720280bf1b8b"
+      },
+      {
+        "channel": "coast",
+        "event": 224,
+        "mmsi": "976547977",
+        "processed": 242,
+        "received": 236,
+        "record_id": "r-673f72189563"
+      },
+      {
+        "channel": "coast",
+        "event": 304,
+        "mmsi": "974255508",
+        "processed": 320,
+        "received": 316,
+        "record_id": "r-6f63ada25c84"
+      },
+      {
+        "channel": "coast",
+        "event": 175,
+        "mmsi": "972654683",
+        "processed": 194,
+        "received": 187,
+        "record_id": "r-7eb9ae49e498"
+      },
+      {
+        "channel": "coast",
+        "event": 156,
+        "mmsi": "973726696",
+        "processed": 172,
+        "received": 168,
+        "record_id": "r-5806d140deea"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "977100760",
+        "processed": -94,
+        "received": -98,
+        "record_id": "r-2e5fc49e877b"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "974055663",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-9ce1b7b45f27"
+      },
+      {
+        "channel": "relay",
+        "event": 576,
+        "mmsi": "977036747",
+        "processed": 667,
+        "received": 658,
+        "record_id": "r-47166b7687ff"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "977036747",
+        "processed": 614,
+        "received": 610,
+        "record_id": "r-f0fd3166f855"
+      }
+    ],
+    "revised_correct_members": [
+      "972654683",
+      "973726696",
+      "974255508",
+      "976547977",
+      "977036747",
+      "979559156"
+    ],
+    "underlying_findings": {
+      "977036747": {
+        "finding": "input_cutoff",
+        "record_id": "r-47166b7687ff"
+      }
+    }
+  },
+  "case-57af87ae4b2d": {
+    "actual_cutoff_overrides": {
+      "r-d594f79c1b30": 689
+    },
+    "actual_processing_time_records": [
+      "r-b59f13ae6ad7"
+    ],
+    "canonical_mismatch": [
+      "972520466",
+      "974284013"
+    ],
+    "case_id": "case-57af87ae4b2d",
+    "correct_members": [
+      "971804505",
+      "972765358",
+      "974284013",
+      "974701504",
+      "975045232",
+      "977936307"
+    ],
+    "group": "mixed",
+    "late_control": {
+      "event_utc": "2026-08-19T06:09:42Z",
+      "mmsi": "971870443",
+      "received_utc": "2026-08-19T06:12:10Z",
+      "record_id": "r-7ac1fe902013"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 242,
+        "mmsi": "977936307",
+        "processed": 263,
+        "received": 254,
+        "record_id": "r-1fb23634e925"
+      },
+      {
+        "channel": "coast",
+        "event": 322,
+        "mmsi": "977936307",
+        "processed": 342,
+        "received": 334,
+        "record_id": "r-7da58739c8b4"
+      },
+      {
+        "channel": "coast",
+        "event": 30,
+        "mmsi": "975045232",
+        "processed": 48,
+        "received": 42,
+        "record_id": "r-175357ddcbd7"
+      },
+      {
+        "channel": "coast",
+        "event": 110,
+        "mmsi": "975045232",
+        "processed": 130,
+        "received": 122,
+        "record_id": "r-b585a4a8a13b"
+      },
+      {
+        "channel": "coast",
+        "event": 391,
+        "mmsi": "974701504",
+        "processed": 406,
+        "received": 403,
+        "record_id": "r-39262c6af1cb"
+      },
+      {
+        "channel": "coast",
+        "event": 135,
+        "mmsi": "972765358",
+        "processed": 154,
+        "received": 147,
+        "record_id": "r-023fc3038e94"
+      },
+      {
+        "channel": "coast",
+        "event": 398,
+        "mmsi": "971804505",
+        "processed": 419,
+        "received": 410,
+        "record_id": "r-149b54d78ffb"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "976717051",
+        "processed": -89,
+        "received": -98,
+        "record_id": "r-d1a141bdc3a7"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "970080464",
+        "processed": 619,
+        "received": 612,
+        "record_id": "r-78b52581e098"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "971870443",
+        "processed": 737,
+        "received": 730,
+        "record_id": "r-7ac1fe902013"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "971870443",
+        "processed": 622,
+        "received": 615,
+        "record_id": "r-da33e01e1c7a"
+      },
+      {
+        "channel": "relay",
+        "event": 585,
+        "mmsi": "974284013",
+        "processed": 616,
+        "received": 611,
+        "record_id": "r-b59f13ae6ad7"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "974284013",
+        "processed": 609,
+        "received": 604,
+        "record_id": "r-e30da42e4f50"
+      },
+      {
+        "channel": "relay",
+        "event": 575,
+        "mmsi": "972520466",
+        "processed": 684,
+        "received": 679,
+        "record_id": "r-d594f79c1b30"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "972520466",
+        "processed": 619,
+        "received": 610,
+        "record_id": "r-94c21f1d3f55"
+      }
+    ],
+    "revised_correct_members": [
+      "971804505",
+      "971870443",
+      "972520466",
+      "972765358",
+      "974284013",
+      "974701504",
+      "975045232",
+      "977936307"
+    ],
+    "underlying_findings": {
+      "972520466": {
+        "finding": "input_cutoff",
+        "record_id": "r-d594f79c1b30"
+      },
+      "974284013": {
+        "finding": "processing_time_window",
+        "record_id": "r-b59f13ae6ad7"
+      }
+    }
+  },
+  "case-5860321fb415": {
+    "actual_cutoff_overrides": {
+      "r-a90d1cbc96a5": 652
+    },
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [
+      "975503345"
+    ],
+    "case_id": "case-5860321fb415",
+    "correct_members": [
+      "973583779",
+      "974443892",
+      "975503345",
+      "976457853",
+      "978473214",
+      "979221961"
+    ],
+    "group": "wrong_cutoff",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 212,
+        "mmsi": "976457853",
+        "processed": 233,
+        "received": 224,
+        "record_id": "r-3936f81d65c5"
+      },
+      {
+        "channel": "coast",
+        "event": 292,
+        "mmsi": "976457853",
+        "processed": 308,
+        "received": 304,
+        "record_id": "r-20e650a637fe"
+      },
+      {
+        "channel": "coast",
+        "event": 204,
+        "mmsi": "974443892",
+        "processed": 224,
+        "received": 216,
+        "record_id": "r-3a43e2901ad5"
+      },
+      {
+        "channel": "coast",
+        "event": 284,
+        "mmsi": "974443892",
+        "processed": 302,
+        "received": 296,
+        "record_id": "r-441891e7bbe7"
+      },
+      {
+        "channel": "coast",
+        "event": 88,
+        "mmsi": "978473214",
+        "processed": 108,
+        "received": 100,
+        "record_id": "r-eaea16ccd3e2"
+      },
+      {
+        "channel": "coast",
+        "event": 10,
+        "mmsi": "973583779",
+        "processed": 31,
+        "received": 22,
+        "record_id": "r-f8ed18de2501"
+      },
+      {
+        "channel": "coast",
+        "event": 65,
+        "mmsi": "979221961",
+        "processed": 84,
+        "received": 77,
+        "record_id": "r-84aca94d2b16"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "976084099",
+        "processed": -91,
+        "received": -98,
+        "record_id": "r-efb400869067"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "971162037",
+        "processed": 615,
+        "received": 612,
+        "record_id": "r-8ee1d4607543"
+      },
+      {
+        "channel": "relay",
+        "event": 578,
+        "mmsi": "975503345",
+        "processed": 666,
+        "received": 660,
+        "record_id": "r-a90d1cbc96a5"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "975503345",
+        "processed": 618,
+        "received": 610,
+        "record_id": "r-ff049327459b"
+      }
+    ],
+    "revised_correct_members": [
+      "973583779",
+      "974443892",
+      "975503345",
+      "976457853",
+      "978473214",
+      "979221961"
+    ],
+    "underlying_findings": {
+      "975503345": {
+        "finding": "input_cutoff",
+        "record_id": "r-a90d1cbc96a5"
+      }
+    }
+  },
+  "case-62efe16b4027": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-bafdcec0437f"
+    ],
+    "canonical_mismatch": [
+      "974156276"
+    ],
+    "case_id": "case-62efe16b4027",
+    "correct_members": [
+      "971509847",
+      "971527188",
+      "974457824",
+      "977913904"
+    ],
+    "group": "wrong_window",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 341,
+        "mmsi": "974457824",
+        "processed": 356,
+        "received": 353,
+        "record_id": "r-4c33e806b0c6"
+      },
+      {
+        "channel": "coast",
+        "event": 421,
+        "mmsi": "974457824",
+        "processed": 442,
+        "received": 433,
+        "record_id": "r-27bc0890e249"
+      },
+      {
+        "channel": "coast",
+        "event": 26,
+        "mmsi": "971509847",
+        "processed": 45,
+        "received": 38,
+        "record_id": "r-7b8776f5e854"
+      },
+      {
+        "channel": "coast",
+        "event": 106,
+        "mmsi": "971509847",
+        "processed": 122,
+        "received": 118,
+        "record_id": "r-28be55b728fc"
+      },
+      {
+        "channel": "coast",
+        "event": 141,
+        "mmsi": "977913904",
+        "processed": 162,
+        "received": 153,
+        "record_id": "r-d1b100f44db7"
+      },
+      {
+        "channel": "coast",
+        "event": 13,
+        "mmsi": "971527188",
+        "processed": 28,
+        "received": 25,
+        "record_id": "r-352a72d59517"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "973596302",
+        "processed": -94,
+        "received": -98,
+        "record_id": "r-67f28b446878"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "971340275",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-cd079e3cb9c2"
+      },
+      {
+        "channel": "relay",
+        "event": -27,
+        "mmsi": "974156276",
+        "processed": 30,
+        "received": 27,
+        "record_id": "r-bafdcec0437f"
+      },
+      {
+        "channel": "coast",
+        "event": -135,
+        "mmsi": "974156276",
+        "processed": -115,
+        "received": -120,
+        "record_id": "r-dfb119900a06"
+      }
+    ],
+    "revised_correct_members": [
+      "971509847",
+      "971527188",
+      "974457824",
+      "977913904"
+    ],
+    "underlying_findings": {
+      "974156276": {
+        "finding": "processing_time_window",
+        "record_id": "r-bafdcec0437f"
+      }
+    }
+  },
+  "case-67bd166215aa": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [],
+    "case_id": "case-67bd166215aa",
+    "correct_members": [
+      "971347825",
+      "979093927",
+      "979256041"
+    ],
+    "group": "normal",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 383,
+        "mmsi": "971347825",
+        "processed": 399,
+        "received": 395,
+        "record_id": "r-599d5cdd9447"
+      },
+      {
+        "channel": "coast",
+        "event": 463,
+        "mmsi": "971347825",
+        "processed": 479,
+        "received": 475,
+        "record_id": "r-6e0786bb93b2"
+      },
+      {
+        "channel": "coast",
+        "event": 73,
+        "mmsi": "979093927",
+        "processed": 91,
+        "received": 85,
+        "record_id": "r-735d5c24230f"
+      },
+      {
+        "channel": "coast",
+        "event": 153,
+        "mmsi": "979093927",
+        "processed": 174,
+        "received": 165,
+        "record_id": "r-2ed1f6fe5d47"
+      },
+      {
+        "channel": "coast",
+        "event": 393,
+        "mmsi": "979256041",
+        "processed": 408,
+        "received": 405,
+        "record_id": "r-575971b73cc9"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "976765933",
+        "processed": -91,
+        "received": -98,
+        "record_id": "r-f990c26f9569"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "979299080",
+        "processed": 615,
+        "received": 612,
+        "record_id": "r-ea8c4ee09fae"
+      }
+    ],
+    "revised_correct_members": [
+      "971347825",
+      "979093927",
+      "979256041"
+    ],
+    "underlying_findings": {}
+  },
+  "case-7527843c531f": {
+    "actual_cutoff_overrides": {
+      "r-dbd5c760c2a5": 683
+    },
+    "actual_processing_time_records": [
+      "r-7efe3bfe2158"
+    ],
+    "canonical_mismatch": [
+      "974210932",
+      "979335253"
+    ],
+    "case_id": "case-7527843c531f",
+    "correct_members": [
+      "972488480",
+      "975581705",
+      "976225753",
+      "979335253",
+      "979442139"
+    ],
+    "group": "mixed",
+    "late_control": {
+      "event_utc": "2026-08-09T06:09:42Z",
+      "mmsi": "971748172",
+      "received_utc": "2026-08-09T06:12:04Z",
+      "record_id": "r-16a963e91094"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 96,
+        "mmsi": "979442139",
+        "processed": 116,
+        "received": 108,
+        "record_id": "r-59b33ea8b085"
+      },
+      {
+        "channel": "coast",
+        "event": 176,
+        "mmsi": "979442139",
+        "processed": 191,
+        "received": 188,
+        "record_id": "r-239979d375d0"
+      },
+      {
+        "channel": "coast",
+        "event": 345,
+        "mmsi": "976225753",
+        "processed": 360,
+        "received": 357,
+        "record_id": "r-2f0ba3f17cea"
+      },
+      {
+        "channel": "coast",
+        "event": 425,
+        "mmsi": "976225753",
+        "processed": 442,
+        "received": 437,
+        "record_id": "r-24f546432d12"
+      },
+      {
+        "channel": "coast",
+        "event": 166,
+        "mmsi": "972488480",
+        "processed": 182,
+        "received": 178,
+        "record_id": "r-4c04e8481ade"
+      },
+      {
+        "channel": "coast",
+        "event": 385,
+        "mmsi": "975581705",
+        "processed": 402,
+        "received": 397,
+        "record_id": "r-ee108927998c"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "971441753",
+        "processed": -94,
+        "received": -98,
+        "record_id": "r-7011f9260be5"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "978358773",
+        "processed": 621,
+        "received": 612,
+        "record_id": "r-0bdbdc7e7670"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "971748172",
+        "processed": 729,
+        "received": 724,
+        "record_id": "r-16a963e91094"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "971748172",
+        "processed": 620,
+        "received": 615,
+        "record_id": "r-25f47cf17e00"
+      },
+      {
+        "channel": "relay",
+        "event": 573,
+        "mmsi": "979335253",
+        "processed": 617,
+        "received": 609,
+        "record_id": "r-7efe3bfe2158"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "979335253",
+        "processed": 610,
+        "received": 604,
+        "record_id": "r-5a67cb0e9708"
+      },
+      {
+        "channel": "relay",
+        "event": 577,
+        "mmsi": "974210932",
+        "processed": 678,
+        "received": 673,
+        "record_id": "r-dbd5c760c2a5"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "974210932",
+        "processed": 618,
+        "received": 610,
+        "record_id": "r-b0727470b7ef"
+      }
+    ],
+    "revised_correct_members": [
+      "971748172",
+      "972488480",
+      "974210932",
+      "975581705",
+      "976225753",
+      "979335253",
+      "979442139"
+    ],
+    "underlying_findings": {
+      "974210932": {
+        "finding": "input_cutoff",
+        "record_id": "r-dbd5c760c2a5"
+      },
+      "979335253": {
+        "finding": "processing_time_window",
+        "record_id": "r-7efe3bfe2158"
+      }
+    }
+  },
+  "case-8d05f4f079f1": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-cc6f32d7cd05"
+    ],
+    "canonical_mismatch": [
+      "971844862"
+    ],
+    "case_id": "case-8d05f4f079f1",
+    "correct_members": [
+      "971665130",
+      "971844862",
+      "973110353",
+      "974268719",
+      "978460563"
+    ],
+    "group": "wrong_window",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 255,
+        "mmsi": "974268719",
+        "processed": 271,
+        "received": 267,
+        "record_id": "r-e1c2de0f8a1e"
+      },
+      {
+        "channel": "coast",
+        "event": 335,
+        "mmsi": "974268719",
+        "processed": 353,
+        "received": 347,
+        "record_id": "r-236231d39ec7"
+      },
+      {
+        "channel": "coast",
+        "event": 159,
+        "mmsi": "973110353",
+        "processed": 180,
+        "received": 171,
+        "record_id": "r-914baf68dd95"
+      },
+      {
+        "channel": "coast",
+        "event": 239,
+        "mmsi": "973110353",
+        "processed": 255,
+        "received": 251,
+        "record_id": "r-2ffe39033bbf"
+      },
+      {
+        "channel": "coast",
+        "event": 165,
+        "mmsi": "971665130",
+        "processed": 183,
+        "received": 177,
+        "record_id": "r-df0accdd89e4"
+      },
+      {
+        "channel": "coast",
+        "event": 246,
+        "mmsi": "978460563",
+        "processed": 262,
+        "received": 258,
+        "record_id": "r-994a2beb94f7"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "979345056",
+        "processed": -90,
+        "received": -98,
+        "record_id": "r-59801ae602ed"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "976096056",
+        "processed": 617,
+        "received": 612,
+        "record_id": "r-26e912d59b7e"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "971844862",
+        "processed": 617,
+        "received": 608,
+        "record_id": "r-cc6f32d7cd05"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "971844862",
+        "processed": 611,
+        "received": 604,
+        "record_id": "r-511cc3ddf702"
+      }
+    ],
+    "revised_correct_members": [
+      "971665130",
+      "971844862",
+      "973110353",
+      "974268719",
+      "978460563"
+    ],
+    "underlying_findings": {
+      "971844862": {
+        "finding": "processing_time_window",
+        "record_id": "r-cc6f32d7cd05"
+      }
+    }
+  },
+  "case-8f7f7d9aa3aa": {
+    "actual_cutoff_overrides": {
+      "r-5c3a7aeed579": 688
+    },
+    "actual_processing_time_records": [
+      "r-0f467c38aa7e"
+    ],
+    "canonical_mismatch": [
+      "970841832",
+      "973701981"
+    ],
+    "case_id": "case-8f7f7d9aa3aa",
+    "correct_members": [
+      "970243748",
+      "970916196",
+      "973701981",
+      "976359846",
+      "978108443"
+    ],
+    "group": "equal_count_swap",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 206,
+        "mmsi": "976359846",
+        "processed": 223,
+        "received": 218,
+        "record_id": "r-9873857ff929"
+      },
+      {
+        "channel": "coast",
+        "event": 286,
+        "mmsi": "976359846",
+        "processed": 304,
+        "received": 298,
+        "record_id": "r-36bf1e48b26b"
+      },
+      {
+        "channel": "coast",
+        "event": 58,
+        "mmsi": "970916196",
+        "processed": 74,
+        "received": 70,
+        "record_id": "r-e96dee609423"
+      },
+      {
+        "channel": "coast",
+        "event": 138,
+        "mmsi": "970916196",
+        "processed": 155,
+        "received": 150,
+        "record_id": "r-b984193352bf"
+      },
+      {
+        "channel": "coast",
+        "event": 200,
+        "mmsi": "978108443",
+        "processed": 221,
+        "received": 212,
+        "record_id": "r-8679a07a3e96"
+      },
+      {
+        "channel": "coast",
+        "event": 360,
+        "mmsi": "970243748",
+        "processed": 378,
+        "received": 372,
+        "record_id": "r-06adaf0b9792"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "979680817",
+        "processed": -90,
+        "received": -98,
+        "record_id": "r-a80a3ca9341f"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "970176220",
+        "processed": 620,
+        "received": 612,
+        "record_id": "r-6eceddf4a450"
+      },
+      {
+        "channel": "relay",
+        "event": 585,
+        "mmsi": "973701981",
+        "processed": 623,
+        "received": 618,
+        "record_id": "r-0f467c38aa7e"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "973701981",
+        "processed": 612,
+        "received": 604,
+        "record_id": "r-91af09cdf77e"
+      },
+      {
+        "channel": "relay",
+        "event": 566,
+        "mmsi": "970841832",
+        "processed": 683,
+        "received": 678,
+        "record_id": "r-5c3a7aeed579"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "970841832",
+        "processed": 618,
+        "received": 610,
+        "record_id": "r-0a4dc32609a9"
+      }
+    ],
+    "revised_correct_members": [
+      "970243748",
+      "970841832",
+      "970916196",
+      "973701981",
+      "976359846",
+      "978108443"
+    ],
+    "underlying_findings": {
+      "970841832": {
+        "finding": "input_cutoff",
+        "record_id": "r-5c3a7aeed579"
+      },
+      "973701981": {
+        "finding": "processing_time_window",
+        "record_id": "r-0f467c38aa7e"
+      }
+    }
+  },
+  "case-9630e05a793b": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [],
+    "case_id": "case-9630e05a793b",
+    "correct_members": [
+      "970044453",
+      "971526604",
+      "971636492",
+      "971920239",
+      "976622625",
+      "977761478"
+    ],
+    "group": "legal_late",
+    "late_control": {
+      "event_utc": "2026-08-17T06:09:42Z",
+      "mmsi": "979601239",
+      "received_utc": "2026-08-17T06:12:05Z",
+      "record_id": "r-d99c694a3690"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 353,
+        "mmsi": "970044453",
+        "processed": 373,
+        "received": 365,
+        "record_id": "r-18751ede3041"
+      },
+      {
+        "channel": "coast",
+        "event": 433,
+        "mmsi": "970044453",
+        "processed": 452,
+        "received": 445,
+        "record_id": "r-784878a4890f"
+      },
+      {
+        "channel": "coast",
+        "event": 38,
+        "mmsi": "977761478",
+        "processed": 55,
+        "received": 50,
+        "record_id": "r-6203886a86f5"
+      },
+      {
+        "channel": "coast",
+        "event": 118,
+        "mmsi": "977761478",
+        "processed": 139,
+        "received": 130,
+        "record_id": "r-18fd798a1257"
+      },
+      {
+        "channel": "coast",
+        "event": 371,
+        "mmsi": "971526604",
+        "processed": 386,
+        "received": 383,
+        "record_id": "r-c273bb9d3863"
+      },
+      {
+        "channel": "coast",
+        "event": 342,
+        "mmsi": "976622625",
+        "processed": 362,
+        "received": 354,
+        "record_id": "r-75826eb603d0"
+      },
+      {
+        "channel": "coast",
+        "event": 191,
+        "mmsi": "971920239",
+        "processed": 207,
+        "received": 203,
+        "record_id": "r-11036d906b27"
+      },
+      {
+        "channel": "coast",
+        "event": 172,
+        "mmsi": "971636492",
+        "processed": 187,
+        "received": 184,
+        "record_id": "r-d6b8d340207b"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "978354204",
+        "processed": -92,
+        "received": -98,
+        "record_id": "r-61abbae40a4f"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "974010490",
+        "processed": 620,
+        "received": 612,
+        "record_id": "r-9a08c366cca7"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "979601239",
+        "processed": 730,
+        "received": 725,
+        "record_id": "r-d99c694a3690"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "979601239",
+        "processed": 624,
+        "received": 615,
+        "record_id": "r-abb65ec74601"
+      }
+    ],
+    "revised_correct_members": [
+      "970044453",
+      "971526604",
+      "971636492",
+      "971920239",
+      "976622625",
+      "977761478",
+      "979601239"
+    ],
+    "underlying_findings": {}
+  },
+  "case-9fcad30459d1": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-0a3423bdeb09"
+    ],
+    "canonical_mismatch": [
+      "971718827"
+    ],
+    "case_id": "case-9fcad30459d1",
+    "correct_members": [
+      "971765625",
+      "975016886",
+      "975486100",
+      "975688478",
+      "978146677"
+    ],
+    "group": "common_mode",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 285,
+        "mmsi": "975016886",
+        "processed": 305,
+        "received": 297,
+        "record_id": "r-988f16e32a26"
+      },
+      {
+        "channel": "coast",
+        "event": 365,
+        "mmsi": "975016886",
+        "processed": 382,
+        "received": 377,
+        "record_id": "r-026f599dee7b"
+      },
+      {
+        "channel": "coast",
+        "event": 137,
+        "mmsi": "978146677",
+        "processed": 152,
+        "received": 149,
+        "record_id": "r-745a9cc1c930"
+      },
+      {
+        "channel": "coast",
+        "event": 217,
+        "mmsi": "978146677",
+        "processed": 238,
+        "received": 229,
+        "record_id": "r-1eefb63a4def"
+      },
+      {
+        "channel": "coast",
+        "event": 258,
+        "mmsi": "975688478",
+        "processed": 279,
+        "received": 270,
+        "record_id": "r-e7d8fe9b9fa1"
+      },
+      {
+        "channel": "coast",
+        "event": 163,
+        "mmsi": "975486100",
+        "processed": 181,
+        "received": 175,
+        "record_id": "r-fd926a4d4203"
+      },
+      {
+        "channel": "coast",
+        "event": 256,
+        "mmsi": "971765625",
+        "processed": 271,
+        "received": 268,
+        "record_id": "r-03032a709268"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "977492267",
+        "processed": -91,
+        "received": -98,
+        "record_id": "r-284a704d41a3"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "978554758",
+        "processed": 616,
+        "received": 612,
+        "record_id": "r-290d63ca81a6"
+      },
+      {
+        "channel": "relay",
+        "event": -38,
+        "mmsi": "971718827",
+        "processed": 37,
+        "received": 31,
+        "record_id": "r-0a3423bdeb09"
+      },
+      {
+        "channel": "coast",
+        "event": -135,
+        "mmsi": "971718827",
+        "processed": -114,
+        "received": -120,
+        "record_id": "r-80bc2de2ccb7"
+      }
+    ],
+    "revised_correct_members": [
+      "971765625",
+      "975016886",
+      "975486100",
+      "975688478",
+      "978146677"
+    ],
+    "underlying_findings": {
+      "971718827": {
+        "finding": "processing_time_window",
+        "record_id": "r-0a3423bdeb09"
+      }
+    }
+  },
+  "case-b61eb6f8660b": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-199a3cd5206d",
+      "r-f1d4f20a195a"
+    ],
+    "canonical_mismatch": [
+      "976390421",
+      "978575114"
+    ],
+    "case_id": "case-b61eb6f8660b",
+    "correct_members": [
+      "970737244",
+      "973807992",
+      "978387294",
+      "978575114",
+      "978969658",
+      "979578448"
+    ],
+    "group": "equal_count_swap",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 315,
+        "mmsi": "979578448",
+        "processed": 333,
+        "received": 327,
+        "record_id": "r-511f5242d558"
+      },
+      {
+        "channel": "coast",
+        "event": 395,
+        "mmsi": "979578448",
+        "processed": 414,
+        "received": 407,
+        "record_id": "r-e07e9f985a17"
+      },
+      {
+        "channel": "coast",
+        "event": 392,
+        "mmsi": "973807992",
+        "processed": 410,
+        "received": 404,
+        "record_id": "r-decd3aa1afee"
+      },
+      {
+        "channel": "coast",
+        "event": 472,
+        "mmsi": "973807992",
+        "processed": 491,
+        "received": 484,
+        "record_id": "r-939a5495edae"
+      },
+      {
+        "channel": "coast",
+        "event": 165,
+        "mmsi": "978969658",
+        "processed": 186,
+        "received": 177,
+        "record_id": "r-0a970ef6ac25"
+      },
+      {
+        "channel": "coast",
+        "event": 163,
+        "mmsi": "978387294",
+        "processed": 182,
+        "received": 175,
+        "record_id": "r-49fd48b0b101"
+      },
+      {
+        "channel": "coast",
+        "event": 356,
+        "mmsi": "970737244",
+        "processed": 375,
+        "received": 368,
+        "record_id": "r-2ed40f3e0739"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "977601363",
+        "processed": -94,
+        "received": -98,
+        "record_id": "r-f988e235a44b"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "971568665",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-d216cc08d755"
+      },
+      {
+        "channel": "relay",
+        "event": 586,
+        "mmsi": "978575114",
+        "processed": 616,
+        "received": 607,
+        "record_id": "r-f1d4f20a195a"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "978575114",
+        "processed": 609,
+        "received": 604,
+        "record_id": "r-79a685487448"
+      },
+      {
+        "channel": "relay",
+        "event": -42,
+        "mmsi": "976390421",
+        "processed": 11,
+        "received": 8,
+        "record_id": "r-199a3cd5206d"
+      },
+      {
+        "channel": "coast",
+        "event": -135,
+        "mmsi": "976390421",
+        "processed": -113,
+        "received": -120,
+        "record_id": "r-115b74d5a0c7"
+      }
+    ],
+    "revised_correct_members": [
+      "970737244",
+      "973807992",
+      "978387294",
+      "978575114",
+      "978969658",
+      "979578448"
+    ],
+    "underlying_findings": {
+      "976390421": {
+        "finding": "processing_time_window",
+        "record_id": "r-199a3cd5206d"
+      },
+      "978575114": {
+        "finding": "processing_time_window",
+        "record_id": "r-f1d4f20a195a"
+      }
+    }
+  },
+  "case-c4f85d2a1b25": {
+    "actual_cutoff_overrides": {
+      "r-5449917ba607": 677
+    },
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [
+      "972153572"
+    ],
+    "case_id": "case-c4f85d2a1b25",
+    "correct_members": [
+      "973916276",
+      "974078913",
+      "974132210",
+      "977126494",
+      "977473947",
+      "979761384"
+    ],
+    "group": "wrong_cutoff",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 260,
+        "mmsi": "977126494",
+        "processed": 281,
+        "received": 272,
+        "record_id": "r-d76b22710f6b"
+      },
+      {
+        "channel": "coast",
+        "event": 340,
+        "mmsi": "977126494",
+        "processed": 359,
+        "received": 352,
+        "record_id": "r-3e543f2fc075"
+      },
+      {
+        "channel": "coast",
+        "event": 320,
+        "mmsi": "977473947",
+        "processed": 336,
+        "received": 332,
+        "record_id": "r-6244c7d752d3"
+      },
+      {
+        "channel": "coast",
+        "event": 400,
+        "mmsi": "977473947",
+        "processed": 421,
+        "received": 412,
+        "record_id": "r-0ee67737a63b"
+      },
+      {
+        "channel": "coast",
+        "event": 135,
+        "mmsi": "973916276",
+        "processed": 152,
+        "received": 147,
+        "record_id": "r-8f2828fa8416"
+      },
+      {
+        "channel": "coast",
+        "event": 305,
+        "mmsi": "979761384",
+        "processed": 321,
+        "received": 317,
+        "record_id": "r-e18bc72ed43a"
+      },
+      {
+        "channel": "coast",
+        "event": 256,
+        "mmsi": "974132210",
+        "processed": 274,
+        "received": 268,
+        "record_id": "r-345cbbd4e0a4"
+      },
+      {
+        "channel": "coast",
+        "event": 168,
+        "mmsi": "974078913",
+        "processed": 184,
+        "received": 180,
+        "record_id": "r-60804a6a16f0"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "979174017",
+        "processed": -92,
+        "received": -98,
+        "record_id": "r-c3211f706699"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "970634105",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-70803c68adca"
+      },
+      {
+        "channel": "relay",
+        "event": 581,
+        "mmsi": "972153572",
+        "processed": 675,
+        "received": 667,
+        "record_id": "r-5449917ba607"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "972153572",
+        "processed": 614,
+        "received": 610,
+        "record_id": "r-dfe4f4921bd2"
+      }
+    ],
+    "revised_correct_members": [
+      "972153572",
+      "973916276",
+      "974078913",
+      "974132210",
+      "977126494",
+      "977473947",
+      "979761384"
+    ],
+    "underlying_findings": {
+      "972153572": {
+        "finding": "input_cutoff",
+        "record_id": "r-5449917ba607"
+      }
+    }
+  },
+  "case-c57e74dac8e4": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [],
+    "case_id": "case-c57e74dac8e4",
+    "correct_members": [
+      "972635279",
+      "973943832",
+      "977468112"
+    ],
+    "group": "legal_late",
+    "late_control": {
+      "event_utc": "2026-08-13T06:09:42Z",
+      "mmsi": "976943126",
+      "received_utc": "2026-08-13T06:11:55Z",
+      "record_id": "r-21f3773767a5"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 290,
+        "mmsi": "972635279",
+        "processed": 309,
+        "received": 302,
+        "record_id": "r-3f92e4b5329e"
+      },
+      {
+        "channel": "coast",
+        "event": 370,
+        "mmsi": "972635279",
+        "processed": 389,
+        "received": 382,
+        "record_id": "r-87cae6265710"
+      },
+      {
+        "channel": "coast",
+        "event": 177,
+        "mmsi": "977468112",
+        "processed": 198,
+        "received": 189,
+        "record_id": "r-f44e9a6169e2"
+      },
+      {
+        "channel": "coast",
+        "event": 257,
+        "mmsi": "977468112",
+        "processed": 276,
+        "received": 269,
+        "record_id": "r-94ac5d00d494"
+      },
+      {
+        "channel": "coast",
+        "event": 87,
+        "mmsi": "973943832",
+        "processed": 105,
+        "received": 99,
+        "record_id": "r-428d3e791d94"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "971561993",
+        "processed": -89,
+        "received": -98,
+        "record_id": "r-6cc18e70d6c8"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "979635456",
+        "processed": 619,
+        "received": 612,
+        "record_id": "r-eaacd6538911"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "976943126",
+        "processed": 718,
+        "received": 715,
+        "record_id": "r-21f3773767a5"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "976943126",
+        "processed": 618,
+        "received": 615,
+        "record_id": "r-5217dcf5fee9"
+      }
+    ],
+    "revised_correct_members": [
+      "972635279",
+      "973943832",
+      "976943126",
+      "977468112"
+    ],
+    "underlying_findings": {}
+  },
+  "case-c66edc7a2b19": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [],
+    "case_id": "case-c66edc7a2b19",
+    "correct_members": [
+      "971343238",
+      "976680765",
+      "978416523"
+    ],
+    "group": "legal_late",
+    "late_control": {
+      "event_utc": "2026-08-10T06:09:42Z",
+      "mmsi": "973634733",
+      "received_utc": "2026-08-10T06:12:02Z",
+      "record_id": "r-2c4c1380071b"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 368,
+        "mmsi": "971343238",
+        "processed": 383,
+        "received": 380,
+        "record_id": "r-ffdfe109a868"
+      },
+      {
+        "channel": "coast",
+        "event": 448,
+        "mmsi": "971343238",
+        "processed": 463,
+        "received": 460,
+        "record_id": "r-2087c3da44f0"
+      },
+      {
+        "channel": "coast",
+        "event": 54,
+        "mmsi": "976680765",
+        "processed": 70,
+        "received": 66,
+        "record_id": "r-82696fe1e8b0"
+      },
+      {
+        "channel": "coast",
+        "event": 134,
+        "mmsi": "976680765",
+        "processed": 154,
+        "received": 146,
+        "record_id": "r-d6f81998360e"
+      },
+      {
+        "channel": "coast",
+        "event": 140,
+        "mmsi": "978416523",
+        "processed": 155,
+        "received": 152,
+        "record_id": "r-40db6ea1687c"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "970944419",
+        "processed": -93,
+        "received": -98,
+        "record_id": "r-633ba16eb39f"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "979057056",
+        "processed": 620,
+        "received": 612,
+        "record_id": "r-293362a7aacd"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "973634733",
+        "processed": 725,
+        "received": 722,
+        "record_id": "r-2c4c1380071b"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "973634733",
+        "processed": 623,
+        "received": 615,
+        "record_id": "r-36cb2c8b4568"
+      }
+    ],
+    "revised_correct_members": [
+      "971343238",
+      "973634733",
+      "976680765",
+      "978416523"
+    ],
+    "underlying_findings": {}
+  },
+  "case-c7aadea571d1": {
+    "actual_cutoff_overrides": {
+      "r-8bf05485dd0b": 667
+    },
+    "actual_processing_time_records": [
+      "r-736a65166969"
+    ],
+    "canonical_mismatch": [
+      "973028921",
+      "973880233"
+    ],
+    "case_id": "case-c7aadea571d1",
+    "correct_members": [
+      "972886211",
+      "974126259",
+      "974423375",
+      "975140344"
+    ],
+    "group": "mixed",
+    "late_control": {
+      "event_utc": "2026-08-31T06:09:42Z",
+      "mmsi": "976746232",
+      "received_utc": "2026-08-31T06:11:48Z",
+      "record_id": "r-a3f63b6b2810"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 63,
+        "mmsi": "972886211",
+        "processed": 81,
+        "received": 75,
+        "record_id": "r-d7223ad8630b"
+      },
+      {
+        "channel": "coast",
+        "event": 143,
+        "mmsi": "972886211",
+        "processed": 164,
+        "received": 155,
+        "record_id": "r-f91bf0b79f8a"
+      },
+      {
+        "channel": "coast",
+        "event": 252,
+        "mmsi": "974126259",
+        "processed": 270,
+        "received": 264,
+        "record_id": "r-2cadd8045fec"
+      },
+      {
+        "channel": "coast",
+        "event": 332,
+        "mmsi": "974126259",
+        "processed": 348,
+        "received": 344,
+        "record_id": "r-c19671259038"
+      },
+      {
+        "channel": "coast",
+        "event": 365,
+        "mmsi": "974423375",
+        "processed": 381,
+        "received": 377,
+        "record_id": "r-22e4872d910b"
+      },
+      {
+        "channel": "coast",
+        "event": 17,
+        "mmsi": "975140344",
+        "processed": 38,
+        "received": 29,
+        "record_id": "r-c48eedf7ef93"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "974580908",
+        "processed": -92,
+        "received": -98,
+        "record_id": "r-d4b7b9e0c82b"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "972085276",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-8cee51d1b65c"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "976746232",
+        "processed": 711,
+        "received": 708,
+        "record_id": "r-a3f63b6b2810"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "976746232",
+        "processed": 620,
+        "received": 615,
+        "record_id": "r-45adcfe0f371"
+      },
+      {
+        "channel": "relay",
+        "event": -18,
+        "mmsi": "973880233",
+        "processed": 26,
+        "received": 21,
+        "record_id": "r-736a65166969"
+      },
+      {
+        "channel": "coast",
+        "event": -135,
+        "mmsi": "973880233",
+        "processed": -112,
+        "received": -120,
+        "record_id": "r-88d63f8ce840"
+      },
+      {
+        "channel": "relay",
+        "event": 585,
+        "mmsi": "973028921",
+        "processed": 661,
+        "received": 657,
+        "record_id": "r-8bf05485dd0b"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "973028921",
+        "processed": 618,
+        "received": 610,
+        "record_id": "r-30c4eb35e63f"
+      }
+    ],
+    "revised_correct_members": [
+      "972886211",
+      "973028921",
+      "974126259",
+      "974423375",
+      "975140344",
+      "976746232"
+    ],
+    "underlying_findings": {
+      "973028921": {
+        "finding": "input_cutoff",
+        "record_id": "r-8bf05485dd0b"
+      },
+      "973880233": {
+        "finding": "processing_time_window",
+        "record_id": "r-736a65166969"
+      }
+    }
+  },
+  "case-c826ed8c4860": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-df90c4b7ad97"
+    ],
+    "canonical_mismatch": [
+      "974417692"
+    ],
+    "case_id": "case-c826ed8c4860",
+    "correct_members": [
+      "971235032",
+      "974417692",
+      "977595880",
+      "978067430",
+      "978071344",
+      "978100614"
+    ],
+    "group": "wrong_window",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 305,
+        "mmsi": "971235032",
+        "processed": 326,
+        "received": 317,
+        "record_id": "r-983b3e871966"
+      },
+      {
+        "channel": "coast",
+        "event": 385,
+        "mmsi": "971235032",
+        "processed": 406,
+        "received": 397,
+        "record_id": "r-ac882e0dec4a"
+      },
+      {
+        "channel": "coast",
+        "event": 243,
+        "mmsi": "978067430",
+        "processed": 259,
+        "received": 255,
+        "record_id": "r-68f5fc366481"
+      },
+      {
+        "channel": "coast",
+        "event": 323,
+        "mmsi": "978067430",
+        "processed": 339,
+        "received": 335,
+        "record_id": "r-7f0c6e27c660"
+      },
+      {
+        "channel": "coast",
+        "event": 11,
+        "mmsi": "978071344",
+        "processed": 31,
+        "received": 23,
+        "record_id": "r-108c570edfc4"
+      },
+      {
+        "channel": "coast",
+        "event": 70,
+        "mmsi": "978100614",
+        "processed": 91,
+        "received": 82,
+        "record_id": "r-899eb0f5956f"
+      },
+      {
+        "channel": "coast",
+        "event": 84,
+        "mmsi": "977595880",
+        "processed": 99,
+        "received": 96,
+        "record_id": "r-9e1f4b121e9e"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "978704220",
+        "processed": -90,
+        "received": -98,
+        "record_id": "r-6cb498cecfca"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "978431749",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-7d26e0ca3f1b"
+      },
+      {
+        "channel": "relay",
+        "event": 572,
+        "mmsi": "974417692",
+        "processed": 620,
+        "received": 612,
+        "record_id": "r-df90c4b7ad97"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "974417692",
+        "processed": 613,
+        "received": 604,
+        "record_id": "r-f052e1f9cc93"
+      }
+    ],
+    "revised_correct_members": [
+      "971235032",
+      "974417692",
+      "977595880",
+      "978067430",
+      "978071344",
+      "978100614"
+    ],
+    "underlying_findings": {
+      "974417692": {
+        "finding": "processing_time_window",
+        "record_id": "r-df90c4b7ad97"
+      }
+    }
+  },
+  "case-cc47eb98cbfd": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-692ff1b8f7dd"
+    ],
+    "canonical_mismatch": [
+      "970386572"
+    ],
+    "case_id": "case-cc47eb98cbfd",
+    "correct_members": [
+      "971006910",
+      "971728923",
+      "975896356"
+    ],
+    "group": "insufficient",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 103,
+        "mmsi": "975896356",
+        "processed": 121,
+        "received": 115,
+        "record_id": "r-11e4e3b5c6ef"
+      },
+      {
+        "channel": "coast",
+        "event": 183,
+        "mmsi": "975896356",
+        "processed": 203,
+        "received": 195,
+        "record_id": "r-b477db746066"
+      },
+      {
+        "channel": "coast",
+        "event": 43,
+        "mmsi": "971728923",
+        "processed": 58,
+        "received": 55,
+        "record_id": "r-960bf7526c31"
+      },
+      {
+        "channel": "coast",
+        "event": 123,
+        "mmsi": "971728923",
+        "processed": 144,
+        "received": 135,
+        "record_id": "r-0ec5f5e18e60"
+      },
+      {
+        "channel": "coast",
+        "event": 114,
+        "mmsi": "971006910",
+        "processed": 132,
+        "received": 126,
+        "record_id": "r-44178755b13e"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "979528142",
+        "processed": -89,
+        "received": -98,
+        "record_id": "r-b8b7cf81a47c"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "971454865",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-46821df7e538"
+      },
+      {
+        "channel": "relay",
+        "event": -17,
+        "mmsi": "970386572",
+        "processed": 35,
+        "received": 32,
+        "record_id": "r-692ff1b8f7dd"
+      },
+      {
+        "channel": "coast",
+        "event": -135,
+        "mmsi": "970386572",
+        "processed": -115,
+        "received": -120,
+        "record_id": "r-d3a920ee6f5c"
+      }
+    ],
+    "revised_correct_members": [
+      "971006910",
+      "971728923",
+      "975896356"
+    ],
+    "underlying_findings": {
+      "970386572": {
+        "finding": "processing_time_window",
+        "record_id": "r-692ff1b8f7dd"
+      }
+    }
+  },
+  "case-ccac90b23034": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-9d1ee02ab851"
+    ],
+    "canonical_mismatch": [
+      "976675552"
+    ],
+    "case_id": "case-ccac90b23034",
+    "correct_members": [
+      "971519122",
+      "978208491",
+      "978247713",
+      "978428552",
+      "979609493"
+    ],
+    "group": "wrong_window",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 196,
+        "mmsi": "978208491",
+        "processed": 211,
+        "received": 208,
+        "record_id": "r-2ec630665e8e"
+      },
+      {
+        "channel": "coast",
+        "event": 276,
+        "mmsi": "978208491",
+        "processed": 291,
+        "received": 288,
+        "record_id": "r-ca174854646f"
+      },
+      {
+        "channel": "coast",
+        "event": 45,
+        "mmsi": "978247713",
+        "processed": 65,
+        "received": 57,
+        "record_id": "r-6a3972603c41"
+      },
+      {
+        "channel": "coast",
+        "event": 125,
+        "mmsi": "978247713",
+        "processed": 142,
+        "received": 137,
+        "record_id": "r-9971d3342253"
+      },
+      {
+        "channel": "coast",
+        "event": 181,
+        "mmsi": "971519122",
+        "processed": 196,
+        "received": 193,
+        "record_id": "r-a05f000cc207"
+      },
+      {
+        "channel": "coast",
+        "event": 395,
+        "mmsi": "979609493",
+        "processed": 411,
+        "received": 407,
+        "record_id": "r-63fea3993126"
+      },
+      {
+        "channel": "coast",
+        "event": 167,
+        "mmsi": "978428552",
+        "processed": 183,
+        "received": 179,
+        "record_id": "r-ec069cae7b3e"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "976993604",
+        "processed": -91,
+        "received": -98,
+        "record_id": "r-973a828ed45b"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "979165905",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-d87bf771f99a"
+      },
+      {
+        "channel": "relay",
+        "event": -22,
+        "mmsi": "976675552",
+        "processed": 42,
+        "received": 33,
+        "record_id": "r-9d1ee02ab851"
+      },
+      {
+        "channel": "coast",
+        "event": -135,
+        "mmsi": "976675552",
+        "processed": -116,
+        "received": -120,
+        "record_id": "r-68b729a53849"
+      }
+    ],
+    "revised_correct_members": [
+      "971519122",
+      "978208491",
+      "978247713",
+      "978428552",
+      "979609493"
+    ],
+    "underlying_findings": {
+      "976675552": {
+        "finding": "processing_time_window",
+        "record_id": "r-9d1ee02ab851"
+      }
+    }
+  },
+  "case-d1eb8d364377": {
+    "actual_cutoff_overrides": {
+      "r-a59df18a229f": 672
+    },
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [
+      "973625448"
+    ],
+    "case_id": "case-d1eb8d364377",
+    "correct_members": [
+      "970575560",
+      "971766497",
+      "972431559",
+      "974334177"
+    ],
+    "group": "wrong_cutoff",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 161,
+        "mmsi": "971766497",
+        "processed": 177,
+        "received": 173,
+        "record_id": "r-d5c15c80cb70"
+      },
+      {
+        "channel": "coast",
+        "event": 241,
+        "mmsi": "971766497",
+        "processed": 257,
+        "received": 253,
+        "record_id": "r-698dc8bf964f"
+      },
+      {
+        "channel": "coast",
+        "event": 150,
+        "mmsi": "974334177",
+        "processed": 171,
+        "received": 162,
+        "record_id": "r-727873cfaf9f"
+      },
+      {
+        "channel": "coast",
+        "event": 230,
+        "mmsi": "974334177",
+        "processed": 248,
+        "received": 242,
+        "record_id": "r-097876c3fc30"
+      },
+      {
+        "channel": "coast",
+        "event": 26,
+        "mmsi": "970575560",
+        "processed": 43,
+        "received": 38,
+        "record_id": "r-0c50c141ed9c"
+      },
+      {
+        "channel": "coast",
+        "event": 81,
+        "mmsi": "972431559",
+        "processed": 96,
+        "received": 93,
+        "record_id": "r-5ed9bb624329"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "973703376",
+        "processed": -95,
+        "received": -98,
+        "record_id": "r-c9fd0cfc6dcd"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "970235674",
+        "processed": 620,
+        "received": 612,
+        "record_id": "r-a9cfbb43e72b"
+      },
+      {
+        "channel": "relay",
+        "event": 561,
+        "mmsi": "973625448",
+        "processed": 665,
+        "received": 662,
+        "record_id": "r-a59df18a229f"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "973625448",
+        "processed": 615,
+        "received": 610,
+        "record_id": "r-e2eb0956fd3f"
+      }
+    ],
+    "revised_correct_members": [
+      "970575560",
+      "971766497",
+      "972431559",
+      "973625448",
+      "974334177"
+    ],
+    "underlying_findings": {
+      "973625448": {
+        "finding": "input_cutoff",
+        "record_id": "r-a59df18a229f"
+      }
+    }
+  },
+  "case-db0f6dfb368d": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [
+      "r-f64b084d0213"
+    ],
+    "canonical_mismatch": [
+      "975168639"
+    ],
+    "case_id": "case-db0f6dfb368d",
+    "correct_members": [
+      "971039470",
+      "972417553",
+      "973346234",
+      "975168639",
+      "976425555",
+      "978907986",
+      "979646042"
+    ],
+    "group": "common_mode",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 149,
+        "mmsi": "978907986",
+        "processed": 166,
+        "received": 161,
+        "record_id": "r-cf7af354077a"
+      },
+      {
+        "channel": "coast",
+        "event": 229,
+        "mmsi": "978907986",
+        "processed": 244,
+        "received": 241,
+        "record_id": "r-9acca70ba309"
+      },
+      {
+        "channel": "coast",
+        "event": 381,
+        "mmsi": "972417553",
+        "processed": 400,
+        "received": 393,
+        "record_id": "r-2877a3cd68f3"
+      },
+      {
+        "channel": "coast",
+        "event": 461,
+        "mmsi": "972417553",
+        "processed": 481,
+        "received": 473,
+        "record_id": "r-034e7f67f167"
+      },
+      {
+        "channel": "coast",
+        "event": 8,
+        "mmsi": "971039470",
+        "processed": 26,
+        "received": 20,
+        "record_id": "r-3ece6038f857"
+      },
+      {
+        "channel": "coast",
+        "event": 126,
+        "mmsi": "976425555",
+        "processed": 147,
+        "received": 138,
+        "record_id": "r-0d7ba8f38fa0"
+      },
+      {
+        "channel": "coast",
+        "event": 283,
+        "mmsi": "979646042",
+        "processed": 298,
+        "received": 295,
+        "record_id": "r-8a4906c58b9d"
+      },
+      {
+        "channel": "coast",
+        "event": 389,
+        "mmsi": "973346234",
+        "processed": 405,
+        "received": 401,
+        "record_id": "r-0482b8f1a971"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "976363520",
+        "processed": -93,
+        "received": -98,
+        "record_id": "r-354993bbed5b"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "975598226",
+        "processed": 616,
+        "received": 612,
+        "record_id": "r-3a15b9c8ba56"
+      },
+      {
+        "channel": "relay",
+        "event": 585,
+        "mmsi": "975168639",
+        "processed": 617,
+        "received": 613,
+        "record_id": "r-f64b084d0213"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "975168639",
+        "processed": 612,
+        "received": 604,
+        "record_id": "r-d01327d40fa0"
+      }
+    ],
+    "revised_correct_members": [
+      "971039470",
+      "972417553",
+      "973346234",
+      "975168639",
+      "976425555",
+      "978907986",
+      "979646042"
+    ],
+    "underlying_findings": {
+      "975168639": {
+        "finding": "processing_time_window",
+        "record_id": "r-f64b084d0213"
+      }
+    }
+  },
+  "case-e28855ccfbd2": {
+    "actual_cutoff_overrides": {
+      "r-8fd3acf632ac": 630
+    },
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [
+      "976571876"
+    ],
+    "case_id": "case-e28855ccfbd2",
+    "correct_members": [
+      "970106648",
+      "971431295",
+      "972185706",
+      "976571876",
+      "978534915",
+      "979461223"
+    ],
+    "group": "wrong_cutoff",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 97,
+        "mmsi": "971431295",
+        "processed": 118,
+        "received": 109,
+        "record_id": "r-9b4bce4598d4"
+      },
+      {
+        "channel": "coast",
+        "event": 177,
+        "mmsi": "971431295",
+        "processed": 192,
+        "received": 189,
+        "record_id": "r-415c27c8643b"
+      },
+      {
+        "channel": "coast",
+        "event": 265,
+        "mmsi": "970106648",
+        "processed": 283,
+        "received": 277,
+        "record_id": "r-e8e1d9534923"
+      },
+      {
+        "channel": "coast",
+        "event": 345,
+        "mmsi": "970106648",
+        "processed": 361,
+        "received": 357,
+        "record_id": "r-c790ab52d170"
+      },
+      {
+        "channel": "coast",
+        "event": 370,
+        "mmsi": "972185706",
+        "processed": 385,
+        "received": 382,
+        "record_id": "r-4f88f92f2e7e"
+      },
+      {
+        "channel": "coast",
+        "event": 18,
+        "mmsi": "978534915",
+        "processed": 33,
+        "received": 30,
+        "record_id": "r-4be97934d91a"
+      },
+      {
+        "channel": "coast",
+        "event": 345,
+        "mmsi": "979461223",
+        "processed": 362,
+        "received": 357,
+        "record_id": "r-126257da9201"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "973203930",
+        "processed": -91,
+        "received": -98,
+        "record_id": "r-513072aac597"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "979698594",
+        "processed": 618,
+        "received": 612,
+        "record_id": "r-eb602c76de42"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "976571876",
+        "processed": 641,
+        "received": 638,
+        "record_id": "r-8fd3acf632ac"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "976571876",
+        "processed": 616,
+        "received": 610,
+        "record_id": "r-614b3e7bcc31"
+      }
+    ],
+    "revised_correct_members": [
+      "970106648",
+      "971431295",
+      "972185706",
+      "976571876",
+      "978534915",
+      "979461223"
+    ],
+    "underlying_findings": {
+      "976571876": {
+        "finding": "input_cutoff",
+        "record_id": "r-8fd3acf632ac"
+      }
+    }
+  },
+  "case-f258ef8cfaa5": {
+    "actual_cutoff_overrides": {
+      "r-9b8c618a2ef9": 644
+    },
+    "actual_processing_time_records": [
+      "r-9d81e46231dd"
+    ],
+    "canonical_mismatch": [
+      "973991087",
+      "978257507"
+    ],
+    "case_id": "case-f258ef8cfaa5",
+    "correct_members": [
+      "972652328",
+      "973991087",
+      "974405992",
+      "975454093",
+      "977127208",
+      "978257507"
+    ],
+    "group": "mixed",
+    "late_control": {
+      "event_utc": "2026-08-07T06:09:42Z",
+      "mmsi": "975788209",
+      "received_utc": "2026-08-07T06:12:04Z",
+      "record_id": "r-bc9cf02cd018"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 296,
+        "mmsi": "975454093",
+        "processed": 312,
+        "received": 308,
+        "record_id": "r-ddc5969f6e02"
+      },
+      {
+        "channel": "coast",
+        "event": 376,
+        "mmsi": "975454093",
+        "processed": 394,
+        "received": 388,
+        "record_id": "r-8193cbc95b04"
+      },
+      {
+        "channel": "coast",
+        "event": 72,
+        "mmsi": "974405992",
+        "processed": 93,
+        "received": 84,
+        "record_id": "r-77c17206ed78"
+      },
+      {
+        "channel": "coast",
+        "event": 152,
+        "mmsi": "974405992",
+        "processed": 168,
+        "received": 164,
+        "record_id": "r-3605f1f77188"
+      },
+      {
+        "channel": "coast",
+        "event": 83,
+        "mmsi": "972652328",
+        "processed": 102,
+        "received": 95,
+        "record_id": "r-2d2ee7abe5be"
+      },
+      {
+        "channel": "coast",
+        "event": 202,
+        "mmsi": "977127208",
+        "processed": 218,
+        "received": 214,
+        "record_id": "r-ece08cea367a"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "971802872",
+        "processed": -91,
+        "received": -98,
+        "record_id": "r-5d0e50fb8cb4"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "978478757",
+        "processed": 619,
+        "received": 612,
+        "record_id": "r-7206bdea3d49"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "975788209",
+        "processed": 731,
+        "received": 724,
+        "record_id": "r-bc9cf02cd018"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "975788209",
+        "processed": 620,
+        "received": 615,
+        "record_id": "r-bd028c65878b"
+      },
+      {
+        "channel": "relay",
+        "event": 563,
+        "mmsi": "973991087",
+        "processed": 618,
+        "received": 610,
+        "record_id": "r-9d81e46231dd"
+      },
+      {
+        "channel": "coast",
+        "event": 602,
+        "mmsi": "973991087",
+        "processed": 609,
+        "received": 604,
+        "record_id": "r-b73ebbf9615f"
+      },
+      {
+        "channel": "relay",
+        "event": 566,
+        "mmsi": "978257507",
+        "processed": 656,
+        "received": 652,
+        "record_id": "r-9b8c618a2ef9"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "978257507",
+        "processed": 614,
+        "received": 610,
+        "record_id": "r-056d9c7d9b8b"
+      }
+    ],
+    "revised_correct_members": [
+      "972652328",
+      "973991087",
+      "974405992",
+      "975454093",
+      "975788209",
+      "977127208",
+      "978257507"
+    ],
+    "underlying_findings": {
+      "973991087": {
+        "finding": "processing_time_window",
+        "record_id": "r-9d81e46231dd"
+      },
+      "978257507": {
+        "finding": "input_cutoff",
+        "record_id": "r-9b8c618a2ef9"
+      }
+    }
+  },
+  "case-f69cedf6ca65": {
+    "actual_cutoff_overrides": {},
+    "actual_processing_time_records": [],
+    "canonical_mismatch": [],
+    "case_id": "case-f69cedf6ca65",
+    "correct_members": [
+      "970724838",
+      "973726173",
+      "975267870",
+      "976501165",
+      "977381499"
+    ],
+    "group": "normal",
+    "late_control": null,
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 6,
+        "mmsi": "976501165",
+        "processed": 27,
+        "received": 18,
+        "record_id": "r-fb49b1ec1714"
+      },
+      {
+        "channel": "coast",
+        "event": 86,
+        "mmsi": "976501165",
+        "processed": 105,
+        "received": 98,
+        "record_id": "r-23b60e5f6db1"
+      },
+      {
+        "channel": "coast",
+        "event": 113,
+        "mmsi": "975267870",
+        "processed": 134,
+        "received": 125,
+        "record_id": "r-930b34f40d48"
+      },
+      {
+        "channel": "coast",
+        "event": 193,
+        "mmsi": "975267870",
+        "processed": 211,
+        "received": 205,
+        "record_id": "r-16904392873a"
+      },
+      {
+        "channel": "coast",
+        "event": 317,
+        "mmsi": "977381499",
+        "processed": 334,
+        "received": 329,
+        "record_id": "r-86263928be73"
+      },
+      {
+        "channel": "coast",
+        "event": 377,
+        "mmsi": "970724838",
+        "processed": 398,
+        "received": 389,
+        "record_id": "r-9c49a95f1b28"
+      },
+      {
+        "channel": "coast",
+        "event": 185,
+        "mmsi": "973726173",
+        "processed": 200,
+        "received": 197,
+        "record_id": "r-0609fa7d5b5a"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "971631973",
+        "processed": -92,
+        "received": -98,
+        "record_id": "r-2d4277fcbff9"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "976757725",
+        "processed": 621,
+        "received": 612,
+        "record_id": "r-7c6a0d599f98"
+      }
+    ],
+    "revised_correct_members": [
+      "970724838",
+      "973726173",
+      "975267870",
+      "976501165",
+      "977381499"
+    ],
+    "underlying_findings": {}
+  },
+  "case-fe733d3f5076": {
+    "actual_cutoff_overrides": {
+      "r-5d6d60968e11": 688
+    },
+    "actual_processing_time_records": [
+      "r-9b1804cbc252"
+    ],
+    "canonical_mismatch": [
+      "971057015",
+      "975483783"
+    ],
+    "case_id": "case-fe733d3f5076",
+    "correct_members": [
+      "974900580",
+      "974924882",
+      "979802061"
+    ],
+    "group": "mixed",
+    "late_control": {
+      "event_utc": "2026-08-06T06:09:42Z",
+      "mmsi": "971021809",
+      "received_utc": "2026-08-06T06:12:09Z",
+      "record_id": "r-8b1af23f95ad"
+    },
+    "raw_frozen_input": [
+      {
+        "channel": "coast",
+        "event": 135,
+        "mmsi": "974924882",
+        "processed": 154,
+        "received": 147,
+        "record_id": "r-70780573d113"
+      },
+      {
+        "channel": "coast",
+        "event": 215,
+        "mmsi": "974924882",
+        "processed": 233,
+        "received": 227,
+        "record_id": "r-7370f63edf71"
+      },
+      {
+        "channel": "coast",
+        "event": 367,
+        "mmsi": "979802061",
+        "processed": 383,
+        "received": 379,
+        "record_id": "r-884ce9cfb4b3"
+      },
+      {
+        "channel": "coast",
+        "event": 447,
+        "mmsi": "979802061",
+        "processed": 462,
+        "received": 459,
+        "record_id": "r-c815c6bc09cc"
+      },
+      {
+        "channel": "coast",
+        "event": 373,
+        "mmsi": "974900580",
+        "processed": 394,
+        "received": 385,
+        "record_id": "r-605eee3cd299"
+      },
+      {
+        "channel": "coast",
+        "event": -110,
+        "mmsi": "973896738",
+        "processed": -91,
+        "received": -98,
+        "record_id": "r-d9ddac3f8e19"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "976719134",
+        "processed": 619,
+        "received": 612,
+        "record_id": "r-ffce7d38448f"
+      },
+      {
+        "channel": "relay",
+        "event": 582,
+        "mmsi": "971021809",
+        "processed": 735,
+        "received": 729,
+        "record_id": "r-8b1af23f95ad"
+      },
+      {
+        "channel": "coast",
+        "event": 609,
+        "mmsi": "971021809",
+        "processed": 620,
+        "received": 615,
+        "record_id": "r-d0684da91311"
+      },
+      {
+        "channel": "relay",
+        "event": -19,
+        "mmsi": "971057015",
+        "processed": 36,
+        "received": 32,
+        "record_id": "r-9b1804cbc252"
+      },
+      {
+        "channel": "coast",
+        "event": -135,
+        "mmsi": "971057015",
+        "processed": -111,
+        "received": -120,
+        "record_id": "r-e6df75da671d"
+      },
+      {
+        "channel": "relay",
+        "event": 572,
+        "mmsi": "975483783",
+        "processed": 684,
+        "received": 678,
+        "record_id": "r-5d6d60968e11"
+      },
+      {
+        "channel": "coast",
+        "event": 604,
+        "mmsi": "975483783",
+        "processed": 618,
+        "received": 610,
+        "record_id": "r-05f6d616167c"
+      }
+    ],
+    "revised_correct_members": [
+      "971021809",
+      "974900580",
+      "974924882",
+      "975483783",
+      "979802061"
+    ],
+    "underlying_findings": {
+      "971057015": {
+        "finding": "processing_time_window",
+        "record_id": "r-9b1804cbc252"
+      },
+      "975483783": {
+        "finding": "input_cutoff",
+        "record_id": "r-5d6d60968e11"
+      }
+    }
+  }
+}

@@ -1,0 +1,484 @@
+[
+  {
+    "case_id": "case-00df7fec8805",
+    "findings": [
+      {
+        "mmsi": "970302813",
+        "finding": "processing_time_window",
+        "record_id": "r-e10e7e290007",
+        "evidence_ids": [
+          "contract-case-00df7fec8805",
+          "cutoff-r-e10e7e290007",
+          "window-r-e10e7e290007",
+          "source-r-e10e7e290007"
+        ]
+      },
+      {
+        "mmsi": "975799316",
+        "finding": "processing_time_window",
+        "record_id": "r-f89259230ad4",
+        "evidence_ids": [
+          "contract-case-00df7fec8805",
+          "cutoff-r-f89259230ad4",
+          "window-r-f89259230ad4",
+          "source-r-f89259230ad4"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-0a7d66b7cbe7",
+    "findings": [
+      {
+        "mmsi": "970054223",
+        "finding": "input_cutoff",
+        "record_id": "r-086dd643b7eb",
+        "evidence_ids": [
+          "contract-case-0a7d66b7cbe7",
+          "source-r-086dd643b7eb",
+          "cutoff-r-086dd643b7eb",
+          "window-r-086dd643b7eb"
+        ]
+      },
+      {
+        "mmsi": "979033778",
+        "finding": "processing_time_window",
+        "record_id": "r-6db82323213c",
+        "evidence_ids": [
+          "contract-case-0a7d66b7cbe7",
+          "source-r-6db82323213c",
+          "cutoff-r-6db82323213c",
+          "window-r-6db82323213c"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-0d9fecb2de88",
+    "findings": [
+      {
+        "mmsi": "970622315",
+        "finding": "processing_time_window",
+        "record_id": "r-633a1bc7b642",
+        "evidence_ids": [
+          "contract-case-0d9fecb2de88",
+          "source-r-633a1bc7b642",
+          "cutoff-r-633a1bc7b642",
+          "window-r-633a1bc7b642"
+        ]
+      },
+      {
+        "mmsi": "973171937",
+        "finding": "input_cutoff",
+        "record_id": "r-62ce176d8db9",
+        "evidence_ids": [
+          "contract-case-0d9fecb2de88",
+          "source-r-62ce176d8db9",
+          "cutoff-r-62ce176d8db9"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-2d81cee2b6d6",
+    "findings": []
+  },
+  {
+    "case_id": "case-393d6cf7dff8",
+    "findings": []
+  },
+  {
+    "case_id": "case-3e6a51338aec",
+    "findings": [
+      {
+        "mmsi": "975724484",
+        "finding": "unresolved",
+        "evidence_ids": [
+          "contract-case-3e6a51338aec",
+          "source-r-721558df34be",
+          "cutoff-r-9ee1811d54ed"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-4e16a8957474",
+    "findings": []
+  },
+  {
+    "case_id": "case-50d3281aeec2",
+    "findings": [
+      {
+        "mmsi": "979993476",
+        "finding": "unresolved",
+        "evidence_ids": [
+          "contract-case-50d3281aeec2",
+          "source-r-ca55b735dd29",
+          "cutoff-r-ca55b735dd29",
+          "window-r-721cade0c52c"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-521a13487a8f",
+    "findings": [
+      {
+        "mmsi": "977036747",
+        "finding": "input_cutoff",
+        "record_id": "r-47166b7687ff",
+        "evidence_ids": [
+          "contract-case-521a13487a8f",
+          "source-r-47166b7687ff",
+          "window-r-47166b7687ff"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-57af87ae4b2d",
+    "findings": [
+      {
+        "mmsi": "972520466",
+        "finding": "input_cutoff",
+        "record_id": "r-d594f79c1b30",
+        "evidence_ids": [
+          "contract-case-57af87ae4b2d",
+          "source-r-d594f79c1b30",
+          "cutoff-r-d594f79c1b30",
+          "window-r-d594f79c1b30"
+        ]
+      },
+      {
+        "mmsi": "974284013",
+        "finding": "processing_time_window",
+        "record_id": "r-b59f13ae6ad7",
+        "evidence_ids": [
+          "contract-case-57af87ae4b2d",
+          "source-r-b59f13ae6ad7",
+          "cutoff-r-b59f13ae6ad7",
+          "window-r-b59f13ae6ad7"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-5860321fb415",
+    "findings": [
+      {
+        "mmsi": "975503345",
+        "finding": "input_cutoff",
+        "record_id": "r-a90d1cbc96a5",
+        "evidence_ids": [
+          "contract-case-5860321fb415",
+          "source-r-a90d1cbc96a5",
+          "cutoff-r-a90d1cbc96a5"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-62efe16b4027",
+    "findings": [
+      {
+        "mmsi": "974156276",
+        "finding": "processing_time_window",
+        "record_id": "r-bafdcec0437f",
+        "evidence_ids": [
+          "contract-case-62efe16b4027",
+          "source-r-bafdcec0437f",
+          "window-r-bafdcec0437f"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-67bd166215aa",
+    "findings": []
+  },
+  {
+    "case_id": "case-7527843c531f",
+    "findings": [
+      {
+        "mmsi": "974210932",
+        "finding": "input_cutoff",
+        "record_id": "r-dbd5c760c2a5",
+        "evidence_ids": [
+          "contract-case-7527843c531f",
+          "source-r-dbd5c760c2a5",
+          "cutoff-r-dbd5c760c2a5",
+          "window-r-dbd5c760c2a5"
+        ]
+      },
+      {
+        "mmsi": "979335253",
+        "finding": "processing_time_window",
+        "record_id": "r-7efe3bfe2158",
+        "evidence_ids": [
+          "contract-case-7527843c531f",
+          "source-r-7efe3bfe2158",
+          "cutoff-r-7efe3bfe2158",
+          "window-r-7efe3bfe2158"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-8d05f4f079f1",
+    "findings": [
+      {
+        "mmsi": "971844862",
+        "finding": "processing_time_window",
+        "record_id": "r-cc6f32d7cd05",
+        "evidence_ids": [
+          "contract-case-8d05f4f079f1",
+          "source-r-cc6f32d7cd05",
+          "cutoff-r-cc6f32d7cd05",
+          "window-r-cc6f32d7cd05"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-8f7f7d9aa3aa",
+    "findings": [
+      {
+        "mmsi": "970841832",
+        "finding": "input_cutoff",
+        "record_id": "r-5c3a7aeed579",
+        "evidence_ids": [
+          "contract-case-8f7f7d9aa3aa",
+          "source-r-5c3a7aeed579",
+          "cutoff-r-5c3a7aeed579",
+          "window-r-5c3a7aeed579"
+        ]
+      },
+      {
+        "mmsi": "973701981",
+        "finding": "processing_time_window",
+        "record_id": "r-0f467c38aa7e",
+        "evidence_ids": [
+          "contract-case-8f7f7d9aa3aa",
+          "source-r-0f467c38aa7e",
+          "cutoff-r-0f467c38aa7e",
+          "window-r-0f467c38aa7e"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-9630e05a793b",
+    "findings": []
+  },
+  {
+    "case_id": "case-9fcad30459d1",
+    "findings": []
+  },
+  {
+    "case_id": "case-b61eb6f8660b",
+    "findings": [
+      {
+        "mmsi": "976390421",
+        "finding": "processing_time_window",
+        "record_id": "r-199a3cd5206d",
+        "evidence_ids": [
+          "contract-case-b61eb6f8660b",
+          "source-r-199a3cd5206d",
+          "window-r-199a3cd5206d"
+        ]
+      },
+      {
+        "mmsi": "978575114",
+        "finding": "processing_time_window",
+        "record_id": "r-f1d4f20a195a",
+        "evidence_ids": [
+          "contract-case-b61eb6f8660b",
+          "source-r-f1d4f20a195a",
+          "window-r-f1d4f20a195a"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-c4f85d2a1b25",
+    "findings": [
+      {
+        "mmsi": "972153572",
+        "finding": "input_cutoff",
+        "record_id": "r-5449917ba607",
+        "evidence_ids": [
+          "contract-case-c4f85d2a1b25",
+          "cutoff-r-5449917ba607",
+          "window-r-5449917ba607"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-c57e74dac8e4",
+    "findings": []
+  },
+  {
+    "case_id": "case-c66edc7a2b19",
+    "findings": []
+  },
+  {
+    "case_id": "case-c7aadea571d1",
+    "findings": [
+      {
+        "mmsi": "973028921",
+        "finding": "input_cutoff",
+        "record_id": "r-8bf05485dd0b",
+        "evidence_ids": [
+          "contract-case-c7aadea571d1",
+          "window-r-8bf05485dd0b",
+          "cutoff-r-8bf05485dd0b"
+        ]
+      },
+      {
+        "mmsi": "973880233",
+        "finding": "processing_time_window",
+        "record_id": "r-736a65166969",
+        "evidence_ids": [
+          "contract-case-c7aadea571d1",
+          "cutoff-r-736a65166969",
+          "window-r-736a65166969"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-c826ed8c4860",
+    "findings": [
+      {
+        "mmsi": "974417692",
+        "finding": "processing_time_window",
+        "record_id": "r-df90c4b7ad97",
+        "evidence_ids": [
+          "contract-case-c826ed8c4860",
+          "cutoff-r-df90c4b7ad97",
+          "window-r-df90c4b7ad97",
+          "source-r-df90c4b7ad97"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-cc47eb98cbfd",
+    "findings": [
+      {
+        "mmsi": "970386572",
+        "finding": "unresolved",
+        "evidence_ids": [
+          "contract-case-cc47eb98cbfd",
+          "source-r-692ff1b8f7dd",
+          "window-r-d3a920ee6f5c"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-ccac90b23034",
+    "findings": [
+      {
+        "mmsi": "976675552",
+        "finding": "processing_time_window",
+        "record_id": "r-9d1ee02ab851",
+        "evidence_ids": [
+          "contract-case-ccac90b23034",
+          "source-r-9d1ee02ab851",
+          "window-r-9d1ee02ab851"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-d1eb8d364377",
+    "findings": [
+      {
+        "mmsi": "973625448",
+        "finding": "input_cutoff",
+        "record_id": "r-a59df18a229f",
+        "evidence_ids": [
+          "contract-case-d1eb8d364377",
+          "source-r-a59df18a229f",
+          "cutoff-r-a59df18a229f",
+          "window-r-a59df18a229f"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-db0f6dfb368d",
+    "findings": []
+  },
+  {
+    "case_id": "case-e28855ccfbd2",
+    "findings": [
+      {
+        "mmsi": "976571876",
+        "finding": "input_cutoff",
+        "record_id": "r-8fd3acf632ac",
+        "evidence_ids": [
+          "contract-case-e28855ccfbd2",
+          "cutoff-r-8fd3acf632ac"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-f258ef8cfaa5",
+    "findings": [
+      {
+        "mmsi": "973991087",
+        "finding": "processing_time_window",
+        "record_id": "r-9d81e46231dd",
+        "evidence_ids": [
+          "contract-case-f258ef8cfaa5",
+          "source-r-9d81e46231dd",
+          "cutoff-r-9d81e46231dd",
+          "window-r-9d81e46231dd"
+        ]
+      },
+      {
+        "mmsi": "978257507",
+        "finding": "input_cutoff",
+        "record_id": "r-9b8c618a2ef9",
+        "evidence_ids": [
+          "contract-case-f258ef8cfaa5",
+          "source-r-9b8c618a2ef9",
+          "cutoff-r-9b8c618a2ef9"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case-f69cedf6ca65",
+    "findings": []
+  },
+  {
+    "case_id": "case-fe733d3f5076",
+    "findings": [
+      {
+        "mmsi": "971057015",
+        "finding": "processing_time_window",
+        "record_id": "r-9b1804cbc252",
+        "evidence_ids": [
+          "contract-case-fe733d3f5076",
+          "cutoff-r-9b1804cbc252",
+          "window-r-9b1804cbc252"
+        ]
+      },
+      {
+        "mmsi": "975483783",
+        "finding": "input_cutoff",
+        "record_id": "r-5d6d60968e11",
+        "evidence_ids": [
+          "contract-case-fe733d3f5076",
+          "cutoff-r-5d6d60968e11",
+          "window-r-5d6d60968e11"
+        ]
+      }
+    ]
+  }
+]

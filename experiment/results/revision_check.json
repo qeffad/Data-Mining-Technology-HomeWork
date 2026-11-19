@@ -1,0 +1,760 @@
+{
+  "evaluation": "deterministic second-cutoff replay, independent reference, retained original fault rules",
+  "frozen_design": {
+    "case_count": 32,
+    "observations_sha256": "4321e66d9659832b97922418568968bc692134d51da44c6e9b7c4a4682495642",
+    "probe_budget": 2,
+    "seed": 20261119,
+    "truth_sha256": "669aea8403bd5348dd02b72749c31b076a8a5a0aeaed4b2a6801638a40965089"
+  },
+  "late_control_entered_both_windows": 10,
+  "late_control_windows": 10,
+  "matched_membership_windows": 11,
+  "mismatched_membership_windows": 21,
+  "per_window": [
+    {
+      "case_id": "case-00df7fec8805",
+      "independent_reference_members": [
+        "970302813",
+        "973643687",
+        "973763586",
+        "976925342"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "970302813"
+      ],
+      "revision_input_cutoff_utc": "2026-08-22T06:13:54Z",
+      "stream_replay_members": [
+        "973643687",
+        "973763586",
+        "975799316",
+        "976925342"
+      ],
+      "unexpected": [
+        "975799316"
+      ]
+    },
+    {
+      "case_id": "case-0a7d66b7cbe7",
+      "independent_reference_members": [
+        "970054223",
+        "970222560",
+        "974785096",
+        "978065283",
+        "979033778"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "979033778"
+      ],
+      "revision_input_cutoff_utc": "2026-08-14T06:13:57Z",
+      "stream_replay_members": [
+        "970054223",
+        "970222560",
+        "974785096",
+        "978065283"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-0d9fecb2de88",
+      "independent_reference_members": [
+        "970574870",
+        "970622315",
+        "971750304",
+        "973171937",
+        "975390687",
+        "977531401"
+      ],
+      "late_control_in_both": true,
+      "missing": [
+        "970622315",
+        "973171937"
+      ],
+      "revision_input_cutoff_utc": "2026-08-28T06:13:50Z",
+      "stream_replay_members": [
+        "970574870",
+        "971750304",
+        "975390687",
+        "977531401"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-2d81cee2b6d6",
+      "independent_reference_members": [
+        "972496276",
+        "972904331",
+        "973299491",
+        "975804086",
+        "977808002",
+        "977935899"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-20T06:13:46Z",
+      "stream_replay_members": [
+        "972496276",
+        "972904331",
+        "973299491",
+        "975804086",
+        "977808002",
+        "977935899"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-393d6cf7dff8",
+      "independent_reference_members": [
+        "971454722",
+        "976719191",
+        "978395823",
+        "978509049",
+        "978935948"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-25T06:13:59Z",
+      "stream_replay_members": [
+        "971454722",
+        "976719191",
+        "978395823",
+        "978509049",
+        "978935948"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-3e6a51338aec",
+      "independent_reference_members": [
+        "973651547",
+        "975492198",
+        "975724484",
+        "978059081"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "975724484"
+      ],
+      "revision_input_cutoff_utc": "2026-08-12T06:13:55Z",
+      "stream_replay_members": [
+        "973651547",
+        "975492198",
+        "978059081"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-4e16a8957474",
+      "independent_reference_members": [
+        "970786880",
+        "974347476",
+        "974438237",
+        "974586311",
+        "974957843",
+        "976937297",
+        "977606933"
+      ],
+      "late_control_in_both": true,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-26T06:13:44Z",
+      "stream_replay_members": [
+        "970786880",
+        "974347476",
+        "974438237",
+        "974586311",
+        "974957843",
+        "976937297",
+        "977606933"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-50d3281aeec2",
+      "independent_reference_members": [
+        "974391727",
+        "976999488",
+        "977318320",
+        "978069837",
+        "979875484",
+        "979993476"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "979993476"
+      ],
+      "revision_input_cutoff_utc": "2026-08-18T06:14:02Z",
+      "stream_replay_members": [
+        "974391727",
+        "976999488",
+        "977318320",
+        "978069837",
+        "979875484"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-521a13487a8f",
+      "independent_reference_members": [
+        "972654683",
+        "973726696",
+        "974255508",
+        "976547977",
+        "977036747",
+        "979559156"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-11T06:13:41Z",
+      "stream_replay_members": [
+        "972654683",
+        "973726696",
+        "974255508",
+        "976547977",
+        "977036747",
+        "979559156"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-57af87ae4b2d",
+      "independent_reference_members": [
+        "971804505",
+        "971870443",
+        "972520466",
+        "972765358",
+        "974284013",
+        "974701504",
+        "975045232",
+        "977936307"
+      ],
+      "late_control_in_both": true,
+      "missing": [
+        "974284013"
+      ],
+      "revision_input_cutoff_utc": "2026-08-19T06:14:02Z",
+      "stream_replay_members": [
+        "971804505",
+        "971870443",
+        "972520466",
+        "972765358",
+        "974701504",
+        "975045232",
+        "977936307"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-5860321fb415",
+      "independent_reference_members": [
+        "973583779",
+        "974443892",
+        "975503345",
+        "976457853",
+        "978473214",
+        "979221961"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "975503345"
+      ],
+      "revision_input_cutoff_utc": "2026-08-30T06:14:04Z",
+      "stream_replay_members": [
+        "973583779",
+        "974443892",
+        "976457853",
+        "978473214",
+        "979221961"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-62efe16b4027",
+      "independent_reference_members": [
+        "971509847",
+        "971527188",
+        "974457824",
+        "977913904"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-21T06:13:43Z",
+      "stream_replay_members": [
+        "971509847",
+        "971527188",
+        "974156276",
+        "974457824",
+        "977913904"
+      ],
+      "unexpected": [
+        "974156276"
+      ]
+    },
+    {
+      "case_id": "case-67bd166215aa",
+      "independent_reference_members": [
+        "971347825",
+        "979093927",
+        "979256041"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-08T06:13:58Z",
+      "stream_replay_members": [
+        "971347825",
+        "979093927",
+        "979256041"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-7527843c531f",
+      "independent_reference_members": [
+        "971748172",
+        "972488480",
+        "974210932",
+        "975581705",
+        "976225753",
+        "979335253",
+        "979442139"
+      ],
+      "late_control_in_both": true,
+      "missing": [
+        "979335253"
+      ],
+      "revision_input_cutoff_utc": "2026-08-09T06:13:56Z",
+      "stream_replay_members": [
+        "971748172",
+        "972488480",
+        "974210932",
+        "975581705",
+        "976225753",
+        "979442139"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-8d05f4f079f1",
+      "independent_reference_members": [
+        "971665130",
+        "971844862",
+        "973110353",
+        "974268719",
+        "978460563"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "971844862"
+      ],
+      "revision_input_cutoff_utc": "2026-08-24T06:13:53Z",
+      "stream_replay_members": [
+        "971665130",
+        "973110353",
+        "974268719",
+        "978460563"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-8f7f7d9aa3aa",
+      "independent_reference_members": [
+        "970243748",
+        "970841832",
+        "970916196",
+        "973701981",
+        "976359846",
+        "978108443"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "973701981"
+      ],
+      "revision_input_cutoff_utc": "2026-08-04T06:14:01Z",
+      "stream_replay_members": [
+        "970243748",
+        "970841832",
+        "970916196",
+        "976359846",
+        "978108443"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-9630e05a793b",
+      "independent_reference_members": [
+        "970044453",
+        "971526604",
+        "971636492",
+        "971920239",
+        "976622625",
+        "977761478",
+        "979601239"
+      ],
+      "late_control_in_both": true,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-17T06:13:57Z",
+      "stream_replay_members": [
+        "970044453",
+        "971526604",
+        "971636492",
+        "971920239",
+        "976622625",
+        "977761478",
+        "979601239"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-9fcad30459d1",
+      "independent_reference_members": [
+        "971765625",
+        "975016886",
+        "975486100",
+        "975688478",
+        "978146677"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-29T06:13:43Z",
+      "stream_replay_members": [
+        "971718827",
+        "971765625",
+        "975016886",
+        "975486100",
+        "975688478",
+        "978146677"
+      ],
+      "unexpected": [
+        "971718827"
+      ]
+    },
+    {
+      "case_id": "case-b61eb6f8660b",
+      "independent_reference_members": [
+        "970737244",
+        "973807992",
+        "978387294",
+        "978575114",
+        "978969658",
+        "979578448"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "978575114"
+      ],
+      "revision_input_cutoff_utc": "2026-08-03T06:13:55Z",
+      "stream_replay_members": [
+        "970737244",
+        "973807992",
+        "976390421",
+        "978387294",
+        "978969658",
+        "979578448"
+      ],
+      "unexpected": [
+        "976390421"
+      ]
+    },
+    {
+      "case_id": "case-c4f85d2a1b25",
+      "independent_reference_members": [
+        "972153572",
+        "973916276",
+        "974078913",
+        "974132210",
+        "977126494",
+        "977473947",
+        "979761384"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-05T06:13:50Z",
+      "stream_replay_members": [
+        "972153572",
+        "973916276",
+        "974078913",
+        "974132210",
+        "977126494",
+        "977473947",
+        "979761384"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-c57e74dac8e4",
+      "independent_reference_members": [
+        "972635279",
+        "973943832",
+        "976943126",
+        "977468112"
+      ],
+      "late_control_in_both": true,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-13T06:13:47Z",
+      "stream_replay_members": [
+        "972635279",
+        "973943832",
+        "976943126",
+        "977468112"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-c66edc7a2b19",
+      "independent_reference_members": [
+        "971343238",
+        "973634733",
+        "976680765",
+        "978416523"
+      ],
+      "late_control_in_both": true,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-10T06:13:54Z",
+      "stream_replay_members": [
+        "971343238",
+        "973634733",
+        "976680765",
+        "978416523"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-c7aadea571d1",
+      "independent_reference_members": [
+        "972886211",
+        "973028921",
+        "974126259",
+        "974423375",
+        "975140344",
+        "976746232"
+      ],
+      "late_control_in_both": true,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-31T06:13:40Z",
+      "stream_replay_members": [
+        "972886211",
+        "973028921",
+        "973880233",
+        "974126259",
+        "974423375",
+        "975140344",
+        "976746232"
+      ],
+      "unexpected": [
+        "973880233"
+      ]
+    },
+    {
+      "case_id": "case-c826ed8c4860",
+      "independent_reference_members": [
+        "971235032",
+        "974417692",
+        "977595880",
+        "978067430",
+        "978071344",
+        "978100614"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "974417692"
+      ],
+      "revision_input_cutoff_utc": "2026-08-02T06:13:58Z",
+      "stream_replay_members": [
+        "971235032",
+        "977595880",
+        "978067430",
+        "978071344",
+        "978100614"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-cc47eb98cbfd",
+      "independent_reference_members": [
+        "971006910",
+        "971728923",
+        "975896356"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-15T06:13:45Z",
+      "stream_replay_members": [
+        "970386572",
+        "971006910",
+        "971728923",
+        "975896356"
+      ],
+      "unexpected": [
+        "970386572"
+      ]
+    },
+    {
+      "case_id": "case-ccac90b23034",
+      "independent_reference_members": [
+        "971519122",
+        "978208491",
+        "978247713",
+        "978428552",
+        "979609493"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-16T06:13:55Z",
+      "stream_replay_members": [
+        "971519122",
+        "976675552",
+        "978208491",
+        "978247713",
+        "978428552",
+        "979609493"
+      ],
+      "unexpected": [
+        "976675552"
+      ]
+    },
+    {
+      "case_id": "case-d1eb8d364377",
+      "independent_reference_members": [
+        "970575560",
+        "971766497",
+        "972431559",
+        "973625448",
+        "974334177"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-27T06:13:45Z",
+      "stream_replay_members": [
+        "970575560",
+        "971766497",
+        "972431559",
+        "973625448",
+        "974334177"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-db0f6dfb368d",
+      "independent_reference_members": [
+        "971039470",
+        "972417553",
+        "973346234",
+        "975168639",
+        "976425555",
+        "978907986",
+        "979646042"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "975168639"
+      ],
+      "revision_input_cutoff_utc": "2026-09-01T06:13:53Z",
+      "stream_replay_members": [
+        "971039470",
+        "972417553",
+        "973346234",
+        "976425555",
+        "978907986",
+        "979646042"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-e28855ccfbd2",
+      "independent_reference_members": [
+        "970106648",
+        "971431295",
+        "972185706",
+        "976571876",
+        "978534915",
+        "979461223"
+      ],
+      "late_control_in_both": null,
+      "missing": [
+        "976571876"
+      ],
+      "revision_input_cutoff_utc": "2026-08-23T06:13:42Z",
+      "stream_replay_members": [
+        "970106648",
+        "971431295",
+        "972185706",
+        "978534915",
+        "979461223"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-f258ef8cfaa5",
+      "independent_reference_members": [
+        "972652328",
+        "973991087",
+        "974405992",
+        "975454093",
+        "975788209",
+        "977127208",
+        "978257507"
+      ],
+      "late_control_in_both": true,
+      "missing": [
+        "973991087",
+        "978257507"
+      ],
+      "revision_input_cutoff_utc": "2026-08-07T06:13:56Z",
+      "stream_replay_members": [
+        "972652328",
+        "974405992",
+        "975454093",
+        "975788209",
+        "977127208"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-f69cedf6ca65",
+      "independent_reference_members": [
+        "970724838",
+        "973726173",
+        "975267870",
+        "976501165",
+        "977381499"
+      ],
+      "late_control_in_both": null,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-01T06:13:45Z",
+      "stream_replay_members": [
+        "970724838",
+        "973726173",
+        "975267870",
+        "976501165",
+        "977381499"
+      ],
+      "unexpected": []
+    },
+    {
+      "case_id": "case-fe733d3f5076",
+      "independent_reference_members": [
+        "971021809",
+        "974900580",
+        "974924882",
+        "975483783",
+        "979802061"
+      ],
+      "late_control_in_both": true,
+      "missing": [],
+      "revision_input_cutoff_utc": "2026-08-06T06:14:01Z",
+      "stream_replay_members": [
+        "971021809",
+        "971057015",
+        "974900580",
+        "974924882",
+        "975483783",
+        "979802061"
+      ],
+      "unexpected": [
+        "971057015"
+      ]
+    }
+  ],
+  "replayed_windows": 32
+}

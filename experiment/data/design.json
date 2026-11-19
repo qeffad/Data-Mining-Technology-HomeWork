@@ -1,0 +1,7 @@
+{
+  "case_count": 32,
+  "observations_sha256": "4321e66d9659832b97922418568968bc692134d51da44c6e9b7c4a4682495642",
+  "probe_budget": 2,
+  "seed": 20261119,
+  "truth_sha256": "669aea8403bd5348dd02b72749c31b076a8a5a0aeaed4b2a6801638a40965089"
+}

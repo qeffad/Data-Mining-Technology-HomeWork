@@ -1,0 +1,70 @@
+{
+  "case_count": 5,
+  "cases": [
+    {
+      "case_id": "case-0a7d66b7cbe7",
+      "compatible_members": [
+        {
+          "candidate_records": [
+            "r-6db82323213c"
+          ],
+          "mmsi": "979033778"
+        }
+      ]
+    },
+    {
+      "case_id": "case-50d3281aeec2",
+      "compatible_members": [
+        {
+          "candidate_records": [
+            "r-ca55b735dd29"
+          ],
+          "mmsi": "979993476"
+        }
+      ]
+    },
+    {
+      "case_id": "case-57af87ae4b2d",
+      "compatible_members": [
+        {
+          "candidate_records": [
+            "r-b59f13ae6ad7"
+          ],
+          "mmsi": "974284013"
+        }
+      ]
+    },
+    {
+      "case_id": "case-7527843c531f",
+      "compatible_members": [
+        {
+          "candidate_records": [
+            "r-7efe3bfe2158"
+          ],
+          "mmsi": "979335253"
+        }
+      ]
+    },
+    {
+      "case_id": "case-b61eb6f8660b",
+      "compatible_members": [
+        {
+          "candidate_records": [
+            "r-f1d4f20a195a"
+          ],
+          "mmsi": "978575114"
+        }
+      ]
+    }
+  ],
+  "observations_sha256": "4321e66d9659832b97922418568968bc692134d51da44c6e9b7c4a4682495642",
+  "rule": [
+    "This sensitivity scope is frozen from initial observations and log record-ID availability only.",
+    "Use only original additional-diagnosis cases. A provable report is not escalated.",
+    "Require a complete inventory of initially evidenced raw clocks for at least one difference vessel.",
+    "For a missing vessel, require a single eligible report that could have been excluded by an earlier cutoff or sent to another window by its processing clock.",
+    "For an unexpected vessel, require separate raw reports that could explain excess membership by a later cutoff or processing-clock assignment.",
+    "Require the competing reports to lack initially linked cutoff/window decisions and at least one indexed supplemental decision.",
+    "This is a conservative subset. Other cases may be ambiguous if relevant clocks are not initially attached."
+  ]
+}

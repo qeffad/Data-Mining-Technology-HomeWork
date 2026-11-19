@@ -1,0 +1,1285 @@
+{
+  "agent_reexecuted": false,
+  "constructed_pair": {
+    "diagnosis": {
+      "conditional_cutoff_first": {
+        "additional_queries": 3,
+        "diagnosis_windows": 2,
+        "different_query_sequence": [
+          "case-e28855ccfbd2",
+          "constructed-same-preview-wrong-window"
+        ],
+        "fully_diagnosed_windows": 1,
+        "improved_vs_original": [
+          "case-e28855ccfbd2"
+        ],
+        "regressed_vs_original": [
+          "constructed-same-preview-wrong-window"
+        ]
+      },
+      "cutoff_first": {
+        "additional_queries": 3,
+        "diagnosis_windows": 2,
+        "different_query_sequence": [
+          "case-e28855ccfbd2",
+          "constructed-same-preview-wrong-window"
+        ],
+        "fully_diagnosed_windows": 1,
+        "improved_vs_original": [
+          "case-e28855ccfbd2"
+        ],
+        "regressed_vs_original": [
+          "constructed-same-preview-wrong-window"
+        ]
+      },
+      "original": {
+        "additional_queries": 4,
+        "diagnosis_windows": 2,
+        "different_query_sequence": [],
+        "fully_diagnosed_windows": 1,
+        "improved_vs_original": [],
+        "regressed_vs_original": []
+      }
+    },
+    "identical_initial_preview": true,
+    "windows": [
+      {
+        "case_id": "case-e28855ccfbd2",
+        "member_alert": true,
+        "observable_condition": true,
+        "policies": {
+          "conditional_cutoff_first": {
+            "complete": true,
+            "judgments": {
+              "976571876": "supported_correct"
+            },
+            "queries": 1,
+            "tool_sequence": [
+              "cutoff"
+            ]
+          },
+          "cutoff_first": {
+            "complete": true,
+            "judgments": {
+              "976571876": "supported_correct"
+            },
+            "queries": 1,
+            "tool_sequence": [
+              "cutoff"
+            ]
+          },
+          "original": {
+            "complete": false,
+            "judgments": {
+              "976571876": "unresolved"
+            },
+            "queries": 2,
+            "tool_sequence": [
+              "window",
+              "source"
+            ]
+          }
+        },
+        "scenario": "wrong_cutoff"
+      },
+      {
+        "case_id": "constructed-same-preview-wrong-window",
+        "member_alert": true,
+        "observable_condition": true,
+        "policies": {
+          "conditional_cutoff_first": {
+            "complete": false,
+            "judgments": {
+              "976571876": "unresolved"
+            },
+            "queries": 2,
+            "tool_sequence": [
+              "cutoff",
+              "window"
+            ]
+          },
+          "cutoff_first": {
+            "complete": false,
+            "judgments": {
+              "976571876": "unresolved"
+            },
+            "queries": 2,
+            "tool_sequence": [
+              "cutoff",
+              "window"
+            ]
+          },
+          "original": {
+            "complete": true,
+            "judgments": {
+              "976571876": "supported_correct"
+            },
+            "queries": 2,
+            "tool_sequence": [
+              "window",
+              "source"
+            ]
+          }
+        },
+        "scenario": "constructed_processing_time_window"
+      }
+    ]
+  },
+  "extended_batch_including_constructed_case": {
+    "conditional_cutoff_first": {
+      "additional_queries": 37,
+      "diagnosis_windows": 23,
+      "different_query_sequence": [
+        "case-3e6a51338aec",
+        "case-e28855ccfbd2",
+        "constructed-same-preview-wrong-window"
+      ],
+      "fully_diagnosed_windows": 16,
+      "improved_vs_original": [
+        "case-e28855ccfbd2"
+      ],
+      "regressed_vs_original": [
+        "constructed-same-preview-wrong-window"
+      ]
+    },
+    "cutoff_first": {
+      "additional_queries": 39,
+      "diagnosis_windows": 23,
+      "different_query_sequence": [
+        "case-00df7fec8805",
+        "case-0d9fecb2de88",
+        "case-3e6a51338aec",
+        "case-50d3281aeec2",
+        "case-62efe16b4027",
+        "case-b61eb6f8660b",
+        "case-c826ed8c4860",
+        "case-cc47eb98cbfd",
+        "case-ccac90b23034",
+        "case-e28855ccfbd2",
+        "case-f258ef8cfaa5",
+        "constructed-same-preview-wrong-window"
+      ],
+      "fully_diagnosed_windows": 13,
+      "improved_vs_original": [
+        "case-e28855ccfbd2"
+      ],
+      "regressed_vs_original": [
+        "case-00df7fec8805",
+        "case-c826ed8c4860",
+        "case-ccac90b23034",
+        "constructed-same-preview-wrong-window"
+      ]
+    },
+    "original": {
+      "additional_queries": 38,
+      "diagnosis_windows": 23,
+      "different_query_sequence": [],
+      "fully_diagnosed_windows": 16,
+      "improved_vs_original": [],
+      "regressed_vs_original": []
+    }
+  },
+  "original_batch": {
+    "conditional_cutoff_first": {
+      "additional_queries": 35,
+      "diagnosis_windows": 22,
+      "different_query_sequence": [
+        "case-3e6a51338aec",
+        "case-e28855ccfbd2"
+      ],
+      "fully_diagnosed_windows": 16,
+      "improved_vs_original": [
+        "case-e28855ccfbd2"
+      ],
+      "regressed_vs_original": []
+    },
+    "cutoff_first": {
+      "additional_queries": 37,
+      "diagnosis_windows": 22,
+      "different_query_sequence": [
+        "case-00df7fec8805",
+        "case-0d9fecb2de88",
+        "case-3e6a51338aec",
+        "case-50d3281aeec2",
+        "case-62efe16b4027",
+        "case-b61eb6f8660b",
+        "case-c826ed8c4860",
+        "case-cc47eb98cbfd",
+        "case-ccac90b23034",
+        "case-e28855ccfbd2",
+        "case-f258ef8cfaa5"
+      ],
+      "fully_diagnosed_windows": 13,
+      "improved_vs_original": [
+        "case-e28855ccfbd2"
+      ],
+      "regressed_vs_original": [
+        "case-00df7fec8805",
+        "case-c826ed8c4860",
+        "case-ccac90b23034"
+      ]
+    },
+    "original": {
+      "additional_queries": 36,
+      "diagnosis_windows": 22,
+      "different_query_sequence": [],
+      "fully_diagnosed_windows": 15,
+      "improved_vs_original": [],
+      "regressed_vs_original": []
+    }
+  },
+  "original_batch_windows": 32,
+  "per_original_window": [
+    {
+      "case_id": "case-00df7fec8805",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "970302813": "supported_correct",
+            "975799316": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "source"
+          ]
+        },
+        "cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "970302813": "unresolved",
+            "975799316": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "970302813": "supported_correct",
+            "975799316": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "source"
+          ]
+        }
+      },
+      "scenario": "equal_count_swap"
+    },
+    {
+      "case_id": "case-0a7d66b7cbe7",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "970054223": "supported_correct",
+            "979033778": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "970054223": "supported_correct",
+            "979033778": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "970054223": "supported_correct",
+            "979033778": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        }
+      },
+      "scenario": "equal_count_swap"
+    },
+    {
+      "case_id": "case-0d9fecb2de88",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "970622315": "supported_correct",
+            "973171937": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "cutoff"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "970622315": "supported_correct",
+            "973171937": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "970622315": "supported_correct",
+            "973171937": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "cutoff"
+          ]
+        }
+      },
+      "scenario": "mixed"
+    },
+    {
+      "case_id": "case-2d81cee2b6d6",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "normal"
+    },
+    {
+      "case_id": "case-393d6cf7dff8",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "normal"
+    },
+    {
+      "case_id": "case-3e6a51338aec",
+      "member_alert": true,
+      "observable_condition": true,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "975724484": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "975724484": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": false,
+          "judgments": {
+            "975724484": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "source"
+          ]
+        }
+      },
+      "scenario": "insufficient"
+    },
+    {
+      "case_id": "case-4e16a8957474",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "legal_late"
+    },
+    {
+      "case_id": "case-50d3281aeec2",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "979993476": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "cutoff"
+          ]
+        },
+        "cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "979993476": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": false,
+          "judgments": {
+            "979993476": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "cutoff"
+          ]
+        }
+      },
+      "scenario": "insufficient"
+    },
+    {
+      "case_id": "case-521a13487a8f",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "977036747": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "977036747": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": false,
+          "judgments": {
+            "977036747": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        }
+      },
+      "scenario": "insufficient"
+    },
+    {
+      "case_id": "case-57af87ae4b2d",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "972520466": "supported_correct",
+            "974284013": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "972520466": "supported_correct",
+            "974284013": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "972520466": "supported_correct",
+            "974284013": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        }
+      },
+      "scenario": "mixed"
+    },
+    {
+      "case_id": "case-5860321fb415",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "975503345": "supported_correct"
+          },
+          "queries": 0,
+          "tool_sequence": []
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "975503345": "supported_correct"
+          },
+          "queries": 0,
+          "tool_sequence": []
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "975503345": "supported_correct"
+          },
+          "queries": 0,
+          "tool_sequence": []
+        }
+      },
+      "scenario": "wrong_cutoff"
+    },
+    {
+      "case_id": "case-62efe16b4027",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "974156276": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "974156276": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "974156276": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "window"
+          ]
+        }
+      },
+      "scenario": "wrong_window"
+    },
+    {
+      "case_id": "case-67bd166215aa",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "normal"
+    },
+    {
+      "case_id": "case-7527843c531f",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "974210932": "supported_correct",
+            "979335253": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "974210932": "supported_correct",
+            "979335253": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "974210932": "supported_correct",
+            "979335253": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        }
+      },
+      "scenario": "mixed"
+    },
+    {
+      "case_id": "case-8d05f4f079f1",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "971844862": "supported_correct"
+          },
+          "queries": 0,
+          "tool_sequence": []
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "971844862": "supported_correct"
+          },
+          "queries": 0,
+          "tool_sequence": []
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "971844862": "supported_correct"
+          },
+          "queries": 0,
+          "tool_sequence": []
+        }
+      },
+      "scenario": "wrong_window"
+    },
+    {
+      "case_id": "case-8f7f7d9aa3aa",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "970841832": "supported_correct",
+            "973701981": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "970841832": "supported_correct",
+            "973701981": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "970841832": "supported_correct",
+            "973701981": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        }
+      },
+      "scenario": "equal_count_swap"
+    },
+    {
+      "case_id": "case-9630e05a793b",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "legal_late"
+    },
+    {
+      "case_id": "case-9fcad30459d1",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "common_mode"
+    },
+    {
+      "case_id": "case-b61eb6f8660b",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "976390421": "supported_correct",
+            "978575114": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "976390421": "supported_correct",
+            "978575114": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "976390421": "supported_correct",
+            "978575114": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "window"
+          ]
+        }
+      },
+      "scenario": "equal_count_swap"
+    },
+    {
+      "case_id": "case-c4f85d2a1b25",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "972153572": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "cutoff"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "972153572": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "cutoff"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "972153572": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "cutoff"
+          ]
+        }
+      },
+      "scenario": "wrong_cutoff"
+    },
+    {
+      "case_id": "case-c57e74dac8e4",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "legal_late"
+    },
+    {
+      "case_id": "case-c66edc7a2b19",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "legal_late"
+    },
+    {
+      "case_id": "case-c7aadea571d1",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "973028921": "supported_correct",
+            "973880233": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "973028921": "supported_correct",
+            "973880233": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": false,
+          "judgments": {
+            "973028921": "supported_correct",
+            "973880233": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        }
+      },
+      "scenario": "mixed"
+    },
+    {
+      "case_id": "case-c826ed8c4860",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "974417692": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "source"
+          ]
+        },
+        "cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "974417692": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "974417692": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "source"
+          ]
+        }
+      },
+      "scenario": "wrong_window"
+    },
+    {
+      "case_id": "case-cc47eb98cbfd",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "970386572": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "cutoff"
+          ]
+        },
+        "cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "970386572": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": false,
+          "judgments": {
+            "970386572": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "cutoff"
+          ]
+        }
+      },
+      "scenario": "insufficient"
+    },
+    {
+      "case_id": "case-ccac90b23034",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "976675552": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "source"
+          ]
+        },
+        "cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "976675552": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "976675552": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "source"
+          ]
+        }
+      },
+      "scenario": "wrong_window"
+    },
+    {
+      "case_id": "case-d1eb8d364377",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "973625448": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "cutoff"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "973625448": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "cutoff"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "973625448": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "cutoff"
+          ]
+        }
+      },
+      "scenario": "wrong_cutoff"
+    },
+    {
+      "case_id": "case-db0f6dfb368d",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "common_mode"
+    },
+    {
+      "case_id": "case-e28855ccfbd2",
+      "member_alert": true,
+      "observable_condition": true,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "976571876": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "cutoff"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "976571876": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "cutoff"
+          ]
+        },
+        "original": {
+          "complete": false,
+          "judgments": {
+            "976571876": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "source"
+          ]
+        }
+      },
+      "scenario": "wrong_cutoff"
+    },
+    {
+      "case_id": "case-f258ef8cfaa5",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "973991087": "supported_correct",
+            "978257507": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "cutoff"
+          ]
+        },
+        "cutoff_first": {
+          "complete": true,
+          "judgments": {
+            "973991087": "supported_correct",
+            "978257507": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": true,
+          "judgments": {
+            "973991087": "supported_correct",
+            "978257507": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "window",
+            "cutoff"
+          ]
+        }
+      },
+      "scenario": "mixed"
+    },
+    {
+      "case_id": "case-f69cedf6ca65",
+      "member_alert": false,
+      "observable_condition": false,
+      "scenario": "normal"
+    },
+    {
+      "case_id": "case-fe733d3f5076",
+      "member_alert": true,
+      "observable_condition": false,
+      "policies": {
+        "conditional_cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "971057015": "unresolved",
+            "975483783": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "cutoff_first": {
+          "complete": false,
+          "judgments": {
+            "971057015": "unresolved",
+            "975483783": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        },
+        "original": {
+          "complete": false,
+          "judgments": {
+            "971057015": "unresolved",
+            "975483783": "supported_correct"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "cutoff",
+            "window"
+          ]
+        }
+      },
+      "scenario": "mixed"
+    }
+  ],
+  "protocol": {
+    "conditions": {
+      "conditional_cutoff_first": "Use cutoff first when an unresolved missing vessel has an accepted, ordinary-cutoff next-window report in the preview, all currently linked reports have earlier receipts than the latest visible receipt, that latest receipt lies after window end and by the declared cutoff, and no current-window original report is yet linked.",
+      "cutoff_first": "Use cutoff for the first additional ordinary query in every unresolved window.",
+      "original": "The original evidence-based tool selector at every step."
+    },
+    "counterexample_name": "constructed-same-preview-wrong-window",
+    "max_additional_queries": 2,
+    "original_observations_sha256": "4321e66d9659832b97922418568968bc692134d51da44c6e9b7c4a4682495642",
+    "original_truth_sha256": "669aea8403bd5348dd02b72749c31b076a8a5a0aeaed4b2a6801638a40965089",
+    "paired_manifest_sha256": "1f7a08c2dda070ef749348ca593871d9d4e97e20d5e91a357c6a7c012b13e253",
+    "scope": "Follow-up mechanism check after the original result. Rules and constructed same-preview case are set before running these comparisons. The clone is not an independent holdout.",
+    "unchanged_components": "Initial evidence, member routing, proof requirements and number of additional queries. Each policy sees only chosen log rows before making the next decision."
+  },
+  "protocol_sha256": "e73739fa767b63d9e0a5346a593b3cb3c7daf35573b73c11e71c95ecdf2f8ba3",
+  "receipt_demo": {
+    "evaluation": "The same pre-selection lookup is charged one tool read on both pair members. The quota counts that receipt plus any downstream source or window reads. The three-read calculation relaxes the quota only to expose the proof cost.",
+    "windows": [
+      {
+        "budget_three_including_receipt": {
+          "complete": true,
+          "judgments": {
+            "976571876": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "receipt_index"
+          ]
+        },
+        "budget_two_including_receipt": {
+          "complete": true,
+          "judgments": {
+            "976571876": "supported_correct"
+          },
+          "queries": 1,
+          "tool_sequence": [
+            "receipt_index"
+          ]
+        },
+        "case_id": "case-e28855ccfbd2",
+        "same_target_record_receipt": {
+          "accepted": false,
+          "effective_input_cutoff_utc": "2026-08-23T06:10:30Z",
+          "event_utc": "2026-08-23T06:09:42Z",
+          "evidence_id": "cutoff-r-8fd3acf632ac",
+          "mmsi": "976571876",
+          "received_utc": "2026-08-23T06:10:38Z",
+          "record_id": "r-8fd3acf632ac",
+          "tool": "cutoff"
+        }
+      },
+      {
+        "budget_three_including_receipt": {
+          "complete": true,
+          "judgments": {
+            "976571876": "supported_correct"
+          },
+          "queries": 3,
+          "tool_sequence": [
+            "receipt_index",
+            "window",
+            "source"
+          ]
+        },
+        "budget_two_including_receipt": {
+          "complete": false,
+          "judgments": {
+            "976571876": "unresolved"
+          },
+          "queries": 2,
+          "tool_sequence": [
+            "receipt_index",
+            "window"
+          ]
+        },
+        "case_id": "constructed-same-preview-wrong-window",
+        "same_target_record_receipt": {
+          "accepted": true,
+          "effective_input_cutoff_utc": "2026-08-23T06:10:42Z",
+          "event_utc": "2026-08-23T06:09:42Z",
+          "evidence_id": "cutoff-r-8fd3acf632ac",
+          "mmsi": "976571876",
+          "received_utc": "2026-08-23T06:10:38Z",
+          "record_id": "r-8fd3acf632ac",
+          "tool": "cutoff"
+        }
+      }
+    ]
+  }
+}
